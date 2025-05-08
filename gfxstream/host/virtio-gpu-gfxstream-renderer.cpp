@@ -977,6 +977,9 @@ VG_EXPORT int stream_renderer_init(struct stream_renderer_param* stream_renderer
                         fb->logVulkanOutOfMemory(result, function, line, allocationSize);
                     }}));
 
+#ifdef GFXSTREAM_MESON_BUILD
+    skip_opengles = true;
+#endif
     if (!skip_opengles) {
         // aemu currently does its own opengles initialization in
         // qemu/android/android-emu/android/opengles.cpp.

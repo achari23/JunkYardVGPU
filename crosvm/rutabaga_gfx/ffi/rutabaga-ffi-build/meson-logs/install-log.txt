@@ -5,4 +5,3 @@
 /data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0.1.6
 /data/data/com.termux/files/usr/include/rutabaga_gfx/rutabaga_gfx_ffi.h
 /data/data/com.termux/files/usr/lib/pkgconfig/rutabaga_gfx_ffi.pc
-/data/data/com.termux/files/usr/include/rutabaga_gfx

@@ -6,4 +6,3 @@
 /data/data/com.termux/files/usr/lib/pkgconfig/gfxstream_backend.pc
 /data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0
 /data/data/com.termux/files/usr/lib/libgfxstream_backend.so
-/data/data/com.termux/files/usr/include/gfxstream
