@@ -1,0 +1,29 @@
+{
+  "targets": {
+    "/data/data/com.termux/files/home/gfxstream/host-build/host/libgfxstream_backend.so.0.1.2": {
+      "destination": "{libdir_shared}/libgfxstream_backend.so.0.1.2",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/data/data/com.termux/files/home/gfxstream/host-build/meson-private/gfxstream_backend.pc": {
+      "destination": "{libdir}/pkgconfig/gfxstream_backend.pc",
+      "tag": "devel",
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/data/data/com.termux/files/home/gfxstream/host/include/gfxstream/virtio-gpu-gfxstream-renderer.h": {
+      "destination": "{includedir}/gfxstream/virtio-gpu-gfxstream-renderer.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/data/data/com.termux/files/home/gfxstream/host/include/gfxstream/virtio-gpu-gfxstream-renderer-unstable.h": {
+      "destination": "{includedir}/gfxstream/virtio-gpu-gfxstream-renderer-unstable.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  }
+}

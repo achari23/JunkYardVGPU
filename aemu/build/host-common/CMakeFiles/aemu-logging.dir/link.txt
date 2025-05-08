@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libaemu-logging.a "CMakeFiles/aemu-logging.dir/logging.cpp.o" "CMakeFiles/aemu-logging.dir/GfxstreamFatalError.cpp.o" "CMakeFiles/aemu-logging.dir/__/base/Metrics.cpp.o"
+/data/data/com.termux/files/usr/bin/llvm-ranlib libaemu-logging.a

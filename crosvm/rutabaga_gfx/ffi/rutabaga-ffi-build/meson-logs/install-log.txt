@@ -1,0 +1,8 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so
+/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0
+/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0.1.6
+/data/data/com.termux/files/usr/include/rutabaga_gfx/rutabaga_gfx_ffi.h
+/data/data/com.termux/files/usr/lib/pkgconfig/rutabaga_gfx_ffi.pc
+/data/data/com.termux/files/usr/include/rutabaga_gfx

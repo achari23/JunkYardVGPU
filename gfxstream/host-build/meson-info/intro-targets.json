@@ -1,0 +1,1899 @@
+[
+  {
+    "name": "etc",
+    "id": "457a188@@etc@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/common/etc/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/common/etc/libetc.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/common/etc/libetc.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/common/etc",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/common/etc/etc.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "common_utils",
+    "id": "24c531e@@common_utils@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/common/utils/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/common/utils/libcommon_utils.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/common/utils/libcommon_utils.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/common/utils",
+          "-I/data/data/com.termux/files/home/gfxstream/common/utils",
+          "-I/data/data/com.termux/files/home/gfxstream/common/utils/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/common/utils/Strings.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "host_features",
+    "id": "34808c4@@host_features@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/features/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/features/libhost_features.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/features/libhost_features.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/features",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/features/Features.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "host_tracing",
+    "id": "754bca1@@host_tracing@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/tracing/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/tracing/libhost_tracing.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/tracing/libhost_tracing.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/tracing",
+          "-I/data/data/com.termux/files/home/gfxstream/host/tracing",
+          "-I/data/data/com.termux/files/home/gfxstream/host/tracing/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/tracing/Tracing.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "apigen_codec",
+    "id": "264101e@@apigen_codec@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common/libapigen_codec.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common/libapigen_codec.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common/ChecksumCalculator.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common/ChecksumCalculatorThreadInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common/glUtils.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common/X11Support.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gl_host_common",
+    "id": "bbe3740@@gl_host_common@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gl-host-common/libgl_host_common.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gl-host-common/libgl_host_common.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gl-host-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengles.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/EmuglBackendList.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/emugl_config.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/GLProcessPipe.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/gpuinfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/logger.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/misc.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/OpenglEsPipe.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/opengl/NativeGpuInfo_linux.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "host_backend",
+    "id": "bbe5fc4@@host_backend@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/backend/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/backend/libhost_backend.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "compressed_textures",
+    "id": "b07a48d@@compressed_textures@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/compressedTextureFormats/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/compressedTextureFormats/libcompressed_textures.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/compressedTextureFormats/libcompressed_textures.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/compressedTextureFormats",
+          "-I/data/data/com.termux/files/home/gfxstream/host/compressedTextureFormats",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/compressedTextureFormats/AstcCpuDecompressorNoOp.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gl_snapshot",
+    "id": "09e2458@@gl_snapshot@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot/libgl_snapshot.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot/libgl_snapshot.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot/GLSnapshot.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gles1_dec",
+    "id": "c278387@@gles1_dec@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/gles1_dec/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles1_dec/libgles1_dec.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles1_dec/libgles1_dec.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles1_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gles1_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles1_dec/gles1_dec.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles1_dec/gles1_server_context.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles1_dec/GLESv1Decoder.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_logging"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gles2_dec",
+    "id": "8dd272a@@gles2_dec@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/gles2_dec/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles2_dec/libgles2_dec.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles2_dec/libgles2_dec.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/gles2_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gles2_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles2_dec/gles2_dec.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles2_dec/gles2_server_context.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/gles2_dec/GLESv2Decoder.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_logging"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gl_common",
+    "id": "59001e1@@gl_common@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLcommon/libgl_common.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLcommon/libgl_common.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLcommon",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/rgtc.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/FramebufferData.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLBackgroundLoader.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLDispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLESbuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLEScontext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLESpointer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLESvalidate.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/GLutils.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/NamedObject.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/ObjectData.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/ObjectNameSpace.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/PaletteTexture.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/RangeManip.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/SaveableTexture.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/ScopedGLState.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/ShareGroup.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/TextureData.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/TextureUtils.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_logging",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "glesv2_translator",
+    "id": "a99378e@@glesv2_translator@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_V2/libglesv2_translator.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_V2/libglesv2_translator.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_V2",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/ANGLEShaderParser.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/GLESv2Context.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/GLESv2Imp.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/GLESv2Validate.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/ProgramData.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/SamplerData.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/ShaderParser.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/ShaderValidator.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_V2/TransformFeedbackData.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_logging",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "glescm_translator",
+    "id": "cbf1868@@glescm_translator@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_CM/libglescm_translator.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_CM/libglescm_translator.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/GLES_CM",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/CoreProfileEngine.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/GLEScmContext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/GLEScmImp.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/GLEScmUtils.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLES_CM/GLEScmValidate.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_logging",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "egl_translator",
+    "id": "67c8afc@@egl_translator@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/EGL/libegl_translator.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/EGL/libegl_translator.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glestranslator/EGL",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/common/etc/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-fvisibility=hidden",
+          "-Wno-inconsistent-missing-override",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/ClientAPIExts.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglConfig.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglContext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglDisplay.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglGlobalInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglImp.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglPbufferSurface.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglSurface.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglThreadInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglValidate.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglWindowSurface.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/ShaderCache.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/ThreadInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglOsApi_egl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/CoreProfileConfigs_linux.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/EglOsApi_glx.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/EGL/X11ErrorHandler.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common",
+      "aemu_snapshot",
+      "aemu_logging"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gl_dispatch",
+    "id": "04e3544@@gl_dispatch@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/OpenGLESDispatch/libgl_dispatch.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/OpenGLESDispatch/libgl_dispatch.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/OpenGLESDispatch",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/EGLDispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/gles1_stubbed_in_translator_namespace.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/gles2_stubbed_in_translator_namespace.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/GLESv1Dispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/GLESv2Dispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/OpenGLDispatchLoader.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/OpenGLESDispatch/StaticDispatch.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gl_server",
+    "id": "1b5200b@@gl_server@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/gl/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/gl/libgl_server.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/libgl_server.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/gl/BufferGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/ColorBufferGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/CompositorGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/DebugGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/DisplayGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/DisplaySurfaceGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulatedEglConfig.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulatedEglContext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulatedEglFenceSync.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulatedEglImage.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulatedEglWindowSurface.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/EmulationGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/GLESVersionDetector.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/ReadbackWorkerGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/TextureDraw.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/TextureResize.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/gl/YUVConverter.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "cereal",
+    "id": "498da87@@cereal@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/cereal/libcereal.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/cereal/libcereal.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/utils/include",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/common/vulkan/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-DVK_GFXSTREAM_STRUCTURE_TYPE_EXT",
+          "-DVK_GOOGLE_address_space",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_extension_structs.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_marshaling.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_reserved_marshaling.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_deepcopy.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_dispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common/goldfish_vk_transform.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "emulated_textures",
+    "id": "b11bc91@@emulated_textures@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/vulkan/emulated_textures/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/emulated_textures/libemulated_textures.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/emulated_textures/libemulated_textures.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/emulated_textures",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/emulated_textures",
+          "-I/data/data/com.termux/files/home/gfxstream/utils/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build",
+          "-I/data/data/com.termux/files/home/gfxstream",
+          "-I/data/data/com.termux/files/home/gfxstream/common/vulkan/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-DVK_GFXSTREAM_STRUCTURE_TYPE_EXT",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/emulated_textures/AstcTexture.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/emulated_textures/CompressedImageInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/emulated_textures/GpuDecompressionPipeline.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "lib_vulkan_server",
+    "id": "360067a@@lib_vulkan_server@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/vulkan/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/liblib_vulkan_server.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/liblib_vulkan_server.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build",
+          "-I/data/data/com.termux/files/home/gfxstream",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/utils/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/renderdoc/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/include",
+          "-I/data/data/com.termux/files/home/gfxstream/common/vulkan/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/backend/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/tracing/include",
+          "-I/data/data/com.termux/files/home/gfxstream/common/utils/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-fvisibility=hidden",
+          "-Wno-inconsistent-missing-override",
+          "-Wno-unused-value",
+          "-Wno-return-type",
+          "-Wno-return-type-c-linkage",
+          "-Wno-uninitialized",
+          "-DVK_GFXSTREAM_STRUCTURE_TYPE_EXT",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/BorrowedImageVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/BufferVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/ColorBufferVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/CompositorVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/DeviceLostHelper.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/DeviceOpTracker.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/DisplayVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/DisplaySurfaceVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/PostWorkerVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/DebugUtilsHelper.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/SwapChainStateVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/RenderThreadInfoVk.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkAndroidNativeBuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkCommonOperations.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkDecoder.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkEmulatedPhysicalDeviceMemory.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkEmulatedPhysicalDeviceQueue.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkDecoderGlobalState.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkDecoderSnapshot.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkDecoderSnapshotUtils.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkFormatUtils.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VkReconstruction.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VulkanBoxedHandles.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VulkanDispatch.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VulkanHandleMapping.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/VulkanStream.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/vulkan/vk_util.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common",
+      "aemu_snapshot"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "composer",
+    "id": "d982d70@@composer@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/renderControl_dec/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/renderControl_dec/libcomposer.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/renderControl_dec/libcomposer.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/renderControl_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/renderControl_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/renderControl_dec/renderControl_dec.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/renderControl_dec/renderControl_server_context.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "magma_dec",
+    "id": "5ab6635@@magma_dec@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/magma/magma_dec/libmagma_dec.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma/magma_dec/libmagma_dec.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/fuchsia/magma/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec/magma_dec.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec/magma_server_context.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_base",
+      "aemu_host_common"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "magma_server",
+    "id": "588c668@@magma_server@sta",
+    "type": "static library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/magma/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/magma/libmagma_server.a"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma/libmagma_server.a.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma",
+          "-I/data/data/com.termux/files/home/gfxstream/host/magma",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build",
+          "-I/data/data/com.termux/files/home/gfxstream",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/fuchsia/magma/include",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/fuchsia/magma/include/lib",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/usr/include",
+          "-I/data/data/com.termux/files/usr/include/libdrm",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1",
+          "-DGFXSTREAM_MAGMA_USE_INTEL_DRM=1"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/magma/Connection.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/Decoder.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/DrmBuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/DrmContext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/DrmDevice.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/magma/IntelDrmDecoder.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "llvm-ar"
+        ],
+        "parameters": [
+          "csrDT"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "libdrm",
+      "aemu_base",
+      "aemu_logging"
+    ],
+    "depends": [],
+    "installed": false
+  },
+  {
+    "name": "gfxstream_backend",
+    "id": "4740ae6@@gfxstream_backend@sha",
+    "type": "shared library",
+    "defined_in": "/data/data/com.termux/files/home/gfxstream/host/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/gfxstream/host-build/host/libgfxstream_backend.so.0.1.2"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "cpp",
+        "machine": "host",
+        "compiler": [
+          "c++"
+        ],
+        "parameters": [
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/libgfxstream_backend.so.0.1.2.p",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build",
+          "-I/data/data/com.termux/files/home/gfxstream",
+          "-I/data/data/com.termux/files/home/gfxstream/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/host/apigen-codec-common",
+          "-I/data/data/com.termux/files/home/gfxstream/utils/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/gl-host-common/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/include",
+          "-I/data/data/com.termux/files/home/gfxstream/common/utils/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/backend/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/features/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host/tracing/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glsnapshot",
+          "-I/data/data/com.termux/files/home/gfxstream/host/gl/glestranslator/GLcommon/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan/cereal/common",
+          "-I/data/data/com.termux/files/home/gfxstream/common/vulkan/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/host/vulkan",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/renderdoc/include",
+          "-I/data/data/com.termux/files/home/gfxstream/host-build/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/host/magma/magma_dec",
+          "-I/data/data/com.termux/files/home/gfxstream/third-party/fuchsia/magma/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common",
+          "-I/data/data/com.termux/files/home/aemu/install/include",
+          "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot",
+          "-fvisibility=default",
+          "-fdiagnostics-color=always",
+          "-D_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST",
+          "-Wall",
+          "-Winvalid-pch",
+          "-std=gnu++17",
+          "-O0",
+          "-g",
+          "-fPIC",
+          "-pthread",
+          "-D_FILE_OFFSET_BITS=64",
+          "-Wno-unused-parameter",
+          "-Wno-unused-function",
+          "-Wno-unused-variable",
+          "-Wno-ignored-qualifiers",
+          "-Wno-mismatched-tags",
+          "-Wno-missing-field-initializers",
+          "-Wno-implicit-fallthrough",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_EXTERNAL_SYNC=1",
+          "-DGFXSTREAM_UNSTABLE_VULKAN_DMABUF_WINSYS=1",
+          "-DSTREAM_RENDERER_LOG_LEVEL=1",
+          "-DGFXSTREAM_MESON_BUILD=1",
+          "-DGFXSTREAM_ENABLE_HOST_GLES=1",
+          "-DGFXSTREAM_ENABLE_HOST_MAGMA=1",
+          "-Wno-unused-parameter",
+          "-Wno-unused-variable",
+          "-Wno-unused-function",
+          "-DVK_GFXSTREAM_STRUCTURE_TYPE_EXT"
+        ],
+        "sources": [
+          "/data/data/com.termux/files/home/gfxstream/host/Buffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/ExternalObjectManager.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/ChannelStream.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/ColorBuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/DisplaySurface.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/DisplaySurfaceUser.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/Hwc2.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/PostWorker.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/ReadBuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/render_api.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderChannelImpl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderThread.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderThreadInfo.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RingStream.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/SyncThread.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderWindow.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderLibImpl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RendererImpl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/FrameBuffer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/GfxStreamAgents.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/GraphicsDriverLock.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/virtio-gpu-gfxstream-renderer.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VirtioGpuContext.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VirtioGpuFrontend.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VirtioGpuResource.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VirtioGpuRingBlob.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VirtioGpuTimelines.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/VsyncThread.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/PostWorkerGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderThreadInfoGl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderControl.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/RenderThreadInfoMagma.cpp",
+          "/data/data/com.termux/files/home/gfxstream/host/NativeSubWindow_x11.cpp"
+        ],
+        "generated_sources": [],
+        "unity_sources": []
+      },
+      {
+        "linker": [
+          "c++"
+        ],
+        "parameters": [
+          "-Wl,--as-needed",
+          "-Wl,--no-undefined",
+          "-shared",
+          "-fPIC",
+          "-Wl,-soname,libgfxstream_backend.so.0",
+          "-Wl,--start-group",
+          "-Wl,--start-group",
+          "host/gl/gl-host-common/libgl_host_common.a",
+          "host/features/libhost_features.a",
+          "host/apigen-codec-common/libapigen_codec.a",
+          "common/utils/libcommon_utils.a",
+          "host/backend/libhost_backend.a",
+          "host/tracing/libhost_tracing.a",
+          "host/gl/libgl_server.a",
+          "host/gl/gles1_dec/libgles1_dec.a",
+          "host/gl/gles2_dec/libgles2_dec.a",
+          "host/gl/glsnapshot/libgl_snapshot.a",
+          "host/gl/OpenGLESDispatch/libgl_dispatch.a",
+          "host/gl/glestranslator/EGL/libegl_translator.a",
+          "host/gl/glestranslator/GLcommon/libgl_common.a",
+          "host/compressedTextureFormats/libcompressed_textures.a",
+          "common/etc/libetc.a",
+          "host/gl/glestranslator/GLES_CM/libglescm_translator.a",
+          "host/gl/glestranslator/GLES_V2/libglesv2_translator.a",
+          "host/vulkan/liblib_vulkan_server.a",
+          "host/vulkan/cereal/libcereal.a",
+          "host/vulkan/emulated_textures/libemulated_textures.a",
+          "host/renderControl_dec/libcomposer.a",
+          "host/magma/libmagma_server.a",
+          "host/magma/magma_dec/libmagma_dec.a",
+          "-Wl,-lpthread,-lrt",
+          "/data/data/com.termux/files/home/aemu/install/lib/libaemu-host-common.a",
+          "/data/data/com.termux/files/home/aemu/install/lib/libaemu-base.a",
+          "/data/data/com.termux/files/home/aemu/install/lib/libaemu-logging.a",
+          "/data/data/com.termux/files/home/aemu/install/lib/libaemu-snapshot.a",
+          "-pthread",
+          "/data/data/com.termux/files/usr/lib/libdrm.so",
+          "-Wl,--end-group",
+          "-Wl,--end-group"
+        ]
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [
+      "aemu_host_common",
+      "aemu_base",
+      "aemu_logging",
+      "aemu_snapshot",
+      "dl",
+      "threads"
+    ],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0.1.2",
+      "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0",
+      "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so"
+    ]
+  }
+]

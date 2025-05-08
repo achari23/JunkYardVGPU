@@ -1,0 +1,10 @@
+{
+  "version": "0.1.3",
+  "descriptive_name": "virtgpu_kumquat_ffi",
+  "license": [
+    "unknown"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": []
+}

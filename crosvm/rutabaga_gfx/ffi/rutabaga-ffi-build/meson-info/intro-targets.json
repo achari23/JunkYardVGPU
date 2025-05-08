@@ -1,0 +1,47 @@
+[
+  {
+    "name": "rutabaga_gfx_ffi_build",
+    "id": "rutabaga_gfx_ffi_build@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/librutabaga_gfx_ffi.so",
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/librutabaga_gfx_ffi.so.0",
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/librutabaga_gfx_ffi.so.0.1.6"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/bin/bash",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.sh",
+          "",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build",
+          "librutabaga_gfx_ffi.so",
+          "0.1.6",
+          "debug",
+          ""
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/src/lib.rs",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/Cargo.toml",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.rs",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.sh"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so",
+      "/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0",
+      "/data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0.1.6"
+    ]
+  }
+]

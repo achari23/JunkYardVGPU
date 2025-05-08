@@ -1,0 +1,9 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0.1.2
+/data/data/com.termux/files/usr/include/gfxstream/virtio-gpu-gfxstream-renderer.h
+/data/data/com.termux/files/usr/include/gfxstream/virtio-gpu-gfxstream-renderer-unstable.h
+/data/data/com.termux/files/usr/lib/pkgconfig/gfxstream_backend.pc
+/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0
+/data/data/com.termux/files/usr/lib/libgfxstream_backend.so
+/data/data/com.termux/files/usr/include/gfxstream

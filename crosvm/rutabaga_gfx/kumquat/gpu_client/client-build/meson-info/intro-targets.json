@@ -1,0 +1,45 @@
+[
+  {
+    "name": "virtgpu_kumquat_ffi_build",
+    "id": "virtgpu_kumquat_ffi_build@cus",
+    "type": "custom",
+    "defined_in": "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/meson.build",
+    "filename": [
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/libvirtgpu_kumquat_ffi.so",
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/libvirtgpu_kumquat_ffi.so.0",
+      "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/libvirtgpu_kumquat_ffi.so.0.1.3"
+    ],
+    "build_by_default": true,
+    "target_sources": [
+      {
+        "language": "unknown",
+        "compiler": [
+          "/bin/bash",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/build.sh",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build",
+          "libvirtgpu_kumquat_ffi.so",
+          "0.1.3",
+          "debug",
+          ""
+        ],
+        "parameters": [],
+        "sources": [
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/src/lib.rs",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/Cargo.toml",
+          "/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/build.sh"
+        ],
+        "generated_sources": []
+      }
+    ],
+    "extra_files": [],
+    "subproject": null,
+    "dependencies": [],
+    "depends": [],
+    "installed": true,
+    "install_filename": [
+      "/data/data/com.termux/files/usr/lib/libvirtgpu_kumquat_ffi.so",
+      "/data/data/com.termux/files/usr/lib/libvirtgpu_kumquat_ffi.so.0",
+      "/data/data/com.termux/files/usr/lib/libvirtgpu_kumquat_ffi.so.0.1.3"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "version": "0.1.2",
+  "descriptive_name": "gfxstream",
+  "license": [
+    "MIT OR Apache-2.0"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": []
+}

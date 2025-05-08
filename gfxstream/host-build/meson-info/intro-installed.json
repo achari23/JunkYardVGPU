@@ -1,0 +1,8 @@
+{
+  "/data/data/com.termux/files/home/gfxstream/host-build/host/libgfxstream_backend.so.0.1.2": "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0.1.2",
+  "/data/data/com.termux/files/home/gfxstream/host-build/meson-private/gfxstream_backend.pc": "/data/data/com.termux/files/usr/lib/pkgconfig/gfxstream_backend.pc",
+  "/data/data/com.termux/files/home/gfxstream/host/include/gfxstream/virtio-gpu-gfxstream-renderer.h": "/data/data/com.termux/files/usr/include/gfxstream/virtio-gpu-gfxstream-renderer.h",
+  "/data/data/com.termux/files/home/gfxstream/host/include/gfxstream/virtio-gpu-gfxstream-renderer-unstable.h": "/data/data/com.termux/files/usr/include/gfxstream/virtio-gpu-gfxstream-renderer-unstable.h",
+  "libgfxstream_backend.so.0": "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so.0",
+  "libgfxstream_backend.so": "/data/data/com.termux/files/usr/lib/libgfxstream_backend.so"
+}

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "aemu_base",
+    "type": "pkgconfig",
+    "version": "0.1.2",
+    "compile_args": [
+      "-I/data/data/com.termux/files/home/aemu/install/include"
+    ],
+    "link_args": [
+      "/data/data/com.termux/files/home/aemu/install/lib/libaemu-base.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "aemu_base_dep"
+    ]
+  },
+  {
+    "name": "aemu_host_common",
+    "type": "pkgconfig",
+    "version": "0.1.2",
+    "compile_args": [
+      "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common"
+    ],
+    "link_args": [
+      "/data/data/com.termux/files/home/aemu/install/lib/libaemu-host-common.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "aemu_common_dep"
+    ]
+  },
+  {
+    "name": "aemu_logging",
+    "type": "pkgconfig",
+    "version": "0.1.2",
+    "compile_args": [
+      "-I/data/data/com.termux/files/home/aemu/install/include/aemu/host-common"
+    ],
+    "link_args": [
+      "/data/data/com.termux/files/home/aemu/install/lib/libaemu-logging.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "aemu_logging_dep"
+    ]
+  },
+  {
+    "name": "aemu_snapshot",
+    "type": "pkgconfig",
+    "version": "0.1.2",
+    "compile_args": [
+      "-I/data/data/com.termux/files/home/aemu/install/include/aemu/snapshot"
+    ],
+    "link_args": [
+      "/data/data/com.termux/files/home/aemu/install/lib/libaemu-snapshot.a"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "aemu_snapshot_dep"
+    ]
+  },
+  {
+    "name": "dl",
+    "type": "builtin",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dl_dep"
+    ]
+  },
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "thread_dep"
+    ]
+  },
+  {
+    "name": "libdrm",
+    "type": "pkgconfig",
+    "version": "2.4.124",
+    "compile_args": [
+      "-I/data/data/com.termux/files/usr/include",
+      "-I/data/data/com.termux/files/usr/include/libdrm"
+    ],
+    "link_args": [
+      "/data/data/com.termux/files/usr/lib/libdrm.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "drm_dep"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+prefix=/data/data/com.termux/files/home/gfxstream/host-build
+includedir=/data/data/com.termux/files/usr/include
+libdir=/data/data/com.termux/files/usr/lib
+srcdir=/data/data/com.termux/files/home/gfxstream
+
+Name: gfxstream_backend
+Description: gfxstream backend
+Version: 0.1.2
+Requires.private: aemu_base, aemu_host_common, aemu_snapshot, aemu_logging, libdrm
+Libs: -L${prefix}/host -lgfxstream_backend
+Libs.private: -pthread
+Cflags: -I${prefix}/host/.. -I${srcdir}/host/.. -I${prefix}/host/../include -I${srcdir}/host/../include -I${prefix}/host/apigen-codec-common -I${srcdir}/host/apigen-codec-common -I${prefix}/host/../utils/include -I${srcdir}/host/../utils/include -I${prefix}/host/gl/gl-host-common/include -I${srcdir}/host/gl/gl-host-common/include -I${prefix}/host/include -I${srcdir}/host/include -I${prefix}/common/utils/include -I${srcdir}/common/utils/include -I${prefix}/host/backend/include -I${srcdir}/host/backend/include -I${prefix}/host/features/include -I${srcdir}/host/features/include -I${prefix}/host/tracing/include -I${srcdir}/host/tracing/include -I${prefix}/host/gl -I${srcdir}/host/gl -I${prefix}/host/gl/glsnapshot -I${srcdir}/host/gl/glsnapshot -I${prefix}/host/gl/glestranslator/GLcommon/include -I${srcdir}/host/gl/glestranslator/GLcommon/include -I${prefix}/host/vulkan/cereal -I${srcdir}/host/vulkan/cereal -I${prefix}/host/vulkan/cereal/common -I${srcdir}/host/vulkan/cereal/common -I${prefix}/host/../common/vulkan/include -I${srcdir}/host/../common/vulkan/include -I${prefix}/host/vulkan -I${srcdir}/host/vulkan -I${prefix}/host/../third-party/renderdoc/include -I${srcdir}/host/../third-party/renderdoc/include -I${prefix}/host/magma/magma_dec -I${srcdir}/host/magma/magma_dec -I${prefix}/host/../third-party/fuchsia/magma/include -I${srcdir}/host/../third-party/fuchsia/magma/include -I${prefix}/host -I${srcdir}/host -DGFXSTREAM_UNSTABLE=1

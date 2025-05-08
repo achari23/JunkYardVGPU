@@ -1,0 +1,6 @@
+[options]
+libdir = /data/data/com.termux/files/usr/lib
+includedir = /data/data/com.termux/files/usr/include
+
+[properties]
+

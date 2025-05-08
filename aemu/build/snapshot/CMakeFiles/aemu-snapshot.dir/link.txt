@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/llvm-ar qc libaemu-snapshot.a "CMakeFiles/aemu-snapshot.dir/TextureLoader.cpp.o" "CMakeFiles/aemu-snapshot.dir/TextureSaver.cpp.o"
+/data/data/com.termux/files/usr/bin/llvm-ranlib libaemu-snapshot.a
