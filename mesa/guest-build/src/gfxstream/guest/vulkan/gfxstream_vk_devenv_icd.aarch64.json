@@ -1,0 +1,7 @@
+{
+    "ICD": {
+        "api_version": "1.3.314",
+        "library_path": "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/libvulkan_gfxstream.so"
+    },
+    "file_format_version": "1.0.0"
+}

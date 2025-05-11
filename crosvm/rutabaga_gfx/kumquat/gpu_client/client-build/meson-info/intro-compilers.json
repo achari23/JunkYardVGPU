@@ -1,78 +1,78 @@
 {
   "host": {
     "c": {
-      "id": "clang",
+      "id": "gcc",
       "exelist": [
-        "cc"
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "linker_exelist": [
-        "cc"
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "file_suffixes": [
         "c"
       ],
       "default_suffix": "c",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
-      "linker_id": "ld.lld"
+      "version": "14.2.0",
+      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
     },
     "rust": {
       "id": "rustc",
       "exelist": [
         "rustc",
         "-C",
-        "linker=cc"
+        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "linker_exelist": [
         "rustc",
         "-C",
-        "linker=cc"
+        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "file_suffixes": [
         "rs"
       ],
       "default_suffix": "rs",
       "version": "1.86.0",
-      "full_version": "1.86.0",
-      "linker_id": "ld.lld"
+      "full_version": null,
+      "linker_id": "ld.bfd"
     }
   },
   "build": {
     "c": {
-      "id": "clang",
+      "id": "gcc",
       "exelist": [
-        "cc"
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "linker_exelist": [
-        "cc"
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "file_suffixes": [
         "c"
       ],
       "default_suffix": "c",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
-      "linker_id": "ld.lld"
+      "version": "14.2.0",
+      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
     },
     "rust": {
       "id": "rustc",
       "exelist": [
         "rustc",
         "-C",
-        "linker=cc"
+        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "linker_exelist": [
         "rustc",
         "-C",
-        "linker=cc"
+        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
       ],
       "file_suffixes": [
         "rs"
       ],
       "default_suffix": "rs",
       "version": "1.86.0",
-      "full_version": "1.86.0",
-      "linker_id": "ld.lld"
+      "full_version": null,
+      "linker_id": "ld.bfd"
     }
   }
 }

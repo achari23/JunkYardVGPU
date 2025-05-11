@@ -1,0 +1,104 @@
+{
+  "host": {
+    "c": {
+      "id": "gcc",
+      "exelist": [
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+      ],
+      "linker_exelist": [
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+      ],
+      "file_suffixes": [
+        "c"
+      ],
+      "default_suffix": "c",
+      "version": "14.2.0",
+      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
+    },
+    "cpp": {
+      "id": "gcc",
+      "exelist": [
+        "c++"
+      ],
+      "linker_exelist": [
+        "c++"
+      ],
+      "file_suffixes": [
+        "cpp",
+        "cppm",
+        "cc",
+        "cp",
+        "cxx",
+        "c++",
+        "hh",
+        "hp",
+        "hpp",
+        "ipp",
+        "hxx",
+        "h++",
+        "ino",
+        "ixx",
+        "CPP",
+        "C",
+        "HPP",
+        "H"
+      ],
+      "default_suffix": "cpp",
+      "version": "14.2.0",
+      "full_version": "c++ (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
+    }
+  },
+  "build": {
+    "c": {
+      "id": "gcc",
+      "exelist": [
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+      ],
+      "linker_exelist": [
+        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+      ],
+      "file_suffixes": [
+        "c"
+      ],
+      "default_suffix": "c",
+      "version": "14.2.0",
+      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
+    },
+    "cpp": {
+      "id": "gcc",
+      "exelist": [
+        "c++"
+      ],
+      "linker_exelist": [
+        "c++"
+      ],
+      "file_suffixes": [
+        "cpp",
+        "cppm",
+        "cc",
+        "cp",
+        "cxx",
+        "c++",
+        "hh",
+        "hp",
+        "hpp",
+        "ipp",
+        "hxx",
+        "h++",
+        "ino",
+        "ixx",
+        "CPP",
+        "C",
+        "HPP",
+        "H"
+      ],
+      "default_suffix": "cpp",
+      "version": "14.2.0",
+      "full_version": "c++ (Alpine 14.2.0) 14.2.0",
+      "linker_id": "ld.bfd"
+    }
+  }
+}

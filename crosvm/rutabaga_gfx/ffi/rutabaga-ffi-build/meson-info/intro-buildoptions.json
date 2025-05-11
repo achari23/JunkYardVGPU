@@ -1,5 +1,21 @@
 [
   {
+    "name": "build.cmake_prefix_path",
+    "value": [],
+    "section": "core",
+    "machine": "build",
+    "type": "array",
+    "description": "List of additional prefixes for cmake to search"
+  },
+  {
+    "name": "build.pkg_config_path",
+    "value": [],
+    "section": "core",
+    "machine": "build",
+    "type": "array",
+    "description": "List of additional paths for pkg-config to search"
+  },
+  {
     "name": "auto_features",
     "value": "auto",
     "section": "core",
@@ -34,17 +50,6 @@
     "description": "Backend to use"
   },
   {
-    "name": "genvslite",
-    "value": "vs2022",
-    "section": "core",
-    "machine": "any",
-    "choices": [
-      "vs2022"
-    ],
-    "type": "combo",
-    "description": "Setup multiple buildtype-suffixed ninja-backend build directories, and a [builddir]_vs containing a Visual Studio meta-backend with multiple configurations that calls into them"
-  },
-  {
     "name": "buildtype",
     "value": "debug",
     "section": "core",
@@ -61,12 +66,33 @@
     "description": "Build type to use"
   },
   {
+    "name": "cmake_prefix_path",
+    "value": [],
+    "section": "core",
+    "machine": "host",
+    "type": "array",
+    "description": "List of additional prefixes for cmake to search"
+  },
+  {
     "name": "debug",
     "value": true,
     "section": "core",
     "machine": "any",
     "type": "boolean",
     "description": "Enable debug symbols and other information"
+  },
+  {
+    "name": "default_both_libraries",
+    "value": "shared",
+    "section": "core",
+    "machine": "any",
+    "choices": [
+      "shared",
+      "static",
+      "auto"
+    ],
+    "type": "combo",
+    "description": "Default library type for both_libraries"
   },
   {
     "name": "default_library",
@@ -82,17 +108,23 @@
     "description": "Default library type"
   },
   {
-    "name": "default_both_libraries",
-    "value": "shared",
+    "name": "force_fallback_for",
+    "value": [],
+    "section": "core",
+    "machine": "any",
+    "type": "array",
+    "description": "Force fallback for those subprojects"
+  },
+  {
+    "name": "genvslite",
+    "value": "vs2022",
     "section": "core",
     "machine": "any",
     "choices": [
-      "shared",
-      "static",
-      "auto"
+      "vs2022"
     ],
     "type": "combo",
-    "description": "Default library type for both_libraries"
+    "description": "Setup multiple buildtype-suffixed ninja-backend build directories, and a [builddir]_vs containing a Visual Studio meta-backend with multiple configurations that calls into them"
   },
   {
     "name": "install_umask",
@@ -132,95 +164,12 @@
     "description": "Optimization level"
   },
   {
-    "name": "prefer_static",
-    "value": false,
-    "section": "core",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Whether to try static linking before shared linking"
-  },
-  {
-    "name": "strip",
-    "value": false,
-    "section": "core",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Strip targets on install"
-  },
-  {
-    "name": "unity",
-    "value": "off",
-    "section": "core",
-    "machine": "any",
-    "choices": [
-      "on",
-      "off",
-      "subprojects"
-    ],
-    "type": "combo",
-    "description": "Unity build"
-  },
-  {
-    "name": "unity_size",
-    "value": 4,
-    "section": "core",
-    "machine": "any",
-    "type": "integer",
-    "description": "Unity block size"
-  },
-  {
-    "name": "warning_level",
-    "value": "1",
-    "section": "core",
-    "machine": "any",
-    "choices": [
-      "0",
-      "1",
-      "2",
-      "3",
-      "everything"
-    ],
-    "type": "combo",
-    "description": "Compiler warning level to use"
-  },
-  {
-    "name": "werror",
-    "value": false,
-    "section": "core",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Treat warnings as errors"
-  },
-  {
-    "name": "wrap_mode",
-    "value": "default",
-    "section": "core",
-    "machine": "any",
-    "choices": [
-      "default",
-      "nofallback",
-      "nodownload",
-      "forcefallback",
-      "nopromote"
-    ],
-    "type": "combo",
-    "description": "Wrap mode"
-  },
-  {
-    "name": "force_fallback_for",
+    "name": "pkg_config_path",
     "value": [],
     "section": "core",
-    "machine": "any",
+    "machine": "host",
     "type": "array",
-    "description": "Force fallback for those subprojects"
-  },
-  {
-    "name": "vsenv",
-    "value": false,
-    "section": "core",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Activate Visual Studio environment"
+    "description": "List of additional paths for pkg-config to search"
   },
   {
     "name": "pkgconfig.relocatable",
@@ -229,6 +178,22 @@
     "machine": "any",
     "type": "boolean",
     "description": "Generate pkgconfig files as relocatable"
+  },
+  {
+    "name": "prefer_static",
+    "value": false,
+    "section": "core",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Whether to try static linking before shared linking"
+  },
+  {
+    "name": "python.allow_limited_api",
+    "value": true,
+    "section": "core",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Whether to allow use of the Python Limited API"
   },
   {
     "name": "python.bytecompile",
@@ -269,30 +234,79 @@
     "description": "Directory for site-specific, non-platform-specific files."
   },
   {
-    "name": "python.allow_limited_api",
-    "value": true,
+    "name": "strip",
+    "value": false,
     "section": "core",
     "machine": "any",
     "type": "boolean",
-    "description": "Whether to allow use of the Python Limited API"
+    "description": "Strip targets on install"
   },
   {
-    "name": "pkg_config_path",
-    "value": [
-      "/data/data/com.termux/files/home/aemu/build"
+    "name": "unity",
+    "value": "off",
+    "section": "core",
+    "machine": "any",
+    "choices": [
+      "on",
+      "off",
+      "subprojects"
     ],
-    "section": "core",
-    "machine": "host",
-    "type": "array",
-    "description": "List of additional paths for pkg-config to search"
+    "type": "combo",
+    "description": "Unity build"
   },
   {
-    "name": "cmake_prefix_path",
-    "value": [],
+    "name": "unity_size",
+    "value": 4,
     "section": "core",
-    "machine": "host",
-    "type": "array",
-    "description": "List of additional prefixes for cmake to search"
+    "machine": "any",
+    "type": "integer",
+    "description": "Unity block size"
+  },
+  {
+    "name": "vsenv",
+    "value": false,
+    "section": "core",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Activate Visual Studio environment"
+  },
+  {
+    "name": "warning_level",
+    "value": "1",
+    "section": "core",
+    "machine": "any",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "everything"
+    ],
+    "type": "combo",
+    "description": "Compiler warning level to use"
+  },
+  {
+    "name": "werror",
+    "value": false,
+    "section": "core",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Treat warnings as errors"
+  },
+  {
+    "name": "wrap_mode",
+    "value": "default",
+    "section": "core",
+    "machine": "any",
+    "choices": [
+      "default",
+      "nofallback",
+      "nodownload",
+      "forcefallback",
+      "nopromote"
+    ],
+    "type": "combo",
+    "description": "Wrap mode"
   },
   {
     "name": "backend_max_links",
@@ -303,90 +317,12 @@
     "description": "Maximum number of linker processes to run or 0 for no limit"
   },
   {
-    "name": "b_coverage",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Enable coverage tracking."
-  },
-  {
-    "name": "b_thinlto_cache",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use LLVM ThinLTO caching for faster incremental builds"
-  },
-  {
-    "name": "b_lto_mode",
-    "value": "default",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "default",
-      "thin"
-    ],
-    "type": "combo",
-    "description": "Select between different LTO modes."
-  },
-  {
-    "name": "b_thinlto_cache_dir",
-    "value": "",
-    "section": "base",
-    "machine": "any",
-    "type": "string",
-    "description": "Directory to store ThinLTO cache objects"
-  },
-  {
-    "name": "b_pgo",
-    "value": "off",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "off",
-      "generate",
-      "use"
-    ],
-    "type": "combo",
-    "description": "Use profile guided optimization"
-  },
-  {
-    "name": "b_staticpic",
+    "name": "b_asneeded",
     "value": true,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Build static libraries as position independent"
-  },
-  {
-    "name": "b_sanitize",
-    "value": [],
-    "section": "base",
-    "machine": "any",
-    "type": "array",
-    "description": "Code sanitizer to use"
-  },
-  {
-    "name": "b_lto_threads",
-    "value": 0,
-    "section": "base",
-    "machine": "any",
-    "type": "integer",
-    "description": "Use multiple threads for Link Time Optimization"
-  },
-  {
-    "name": "b_ndebug",
-    "value": "false",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "true",
-      "false",
-      "if-release"
-    ],
-    "type": "combo",
-    "description": "Disable asserts"
+    "description": "Use -Wl,--as-needed when linking"
   },
   {
     "name": "b_colorout",
@@ -402,6 +338,14 @@
     "description": "Use colored output"
   },
   {
+    "name": "b_coverage",
+    "value": false,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Enable coverage tracking."
+  },
+  {
     "name": "b_lto",
     "value": false,
     "section": "base",
@@ -410,20 +354,33 @@
     "description": "Use link time optimization"
   },
   {
-    "name": "b_pie",
-    "value": false,
+    "name": "b_lto_threads",
+    "value": 0,
     "section": "base",
     "machine": "any",
-    "type": "boolean",
-    "description": "Build executables as position independent"
+    "type": "integer",
+    "description": "Use multiple threads for Link Time Optimization"
   },
   {
-    "name": "b_asneeded",
+    "name": "b_lundef",
     "value": true,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Use -Wl,--as-needed when linking"
+    "description": "Use -Wl,--no-undefined when linking"
+  },
+  {
+    "name": "b_ndebug",
+    "value": "false",
+    "section": "base",
+    "machine": "any",
+    "choices": [
+      "true",
+      "false",
+      "if-release"
+    ],
+    "type": "combo",
+    "description": "Disable asserts"
   },
   {
     "name": "b_pch",
@@ -434,12 +391,121 @@
     "description": "Use precompiled headers"
   },
   {
-    "name": "b_lundef",
+    "name": "b_pgo",
+    "value": "off",
+    "section": "base",
+    "machine": "any",
+    "choices": [
+      "off",
+      "generate",
+      "use"
+    ],
+    "type": "combo",
+    "description": "Use profile guided optimization"
+  },
+  {
+    "name": "b_pie",
+    "value": false,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Build executables as position independent"
+  },
+  {
+    "name": "b_sanitize",
+    "value": "none",
+    "section": "base",
+    "machine": "any",
+    "choices": [
+      "none",
+      "address",
+      "thread",
+      "undefined",
+      "memory",
+      "leak",
+      "address,undefined"
+    ],
+    "type": "combo",
+    "description": "Code sanitizer to use"
+  },
+  {
+    "name": "b_staticpic",
     "value": true,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Use -Wl,--no-undefined when linking"
+    "description": "Build static libraries as position independent"
+  },
+  {
+    "name": "build.c_args",
+    "value": [],
+    "section": "compiler",
+    "machine": "build",
+    "type": "array",
+    "description": "Extra arguments passed to the c compiler"
+  },
+  {
+    "name": "build.c_link_args",
+    "value": [],
+    "section": "compiler",
+    "machine": "build",
+    "type": "array",
+    "description": "Extra arguments passed to the c linker"
+  },
+  {
+    "name": "build.c_std",
+    "value": "none",
+    "section": "compiler",
+    "machine": "build",
+    "choices": [
+      "none",
+      "c89",
+      "c99",
+      "c11",
+      "c17",
+      "c18",
+      "c2x",
+      "c23",
+      "gnu89",
+      "gnu99",
+      "gnu11",
+      "gnu17",
+      "gnu18",
+      "gnu2x",
+      "gnu23"
+    ],
+    "type": "combo",
+    "description": "C language standard to use"
+  },
+  {
+    "name": "build.rust_args",
+    "value": [],
+    "section": "compiler",
+    "machine": "build",
+    "type": "array",
+    "description": "Extra arguments passed to the rust compiler"
+  },
+  {
+    "name": "build.rust_link_args",
+    "value": [],
+    "section": "compiler",
+    "machine": "build",
+    "type": "array",
+    "description": "Extra arguments passed to the rust linker"
+  },
+  {
+    "name": "build.rust_std",
+    "value": "none",
+    "section": "compiler",
+    "machine": "build",
+    "choices": [
+      "none",
+      "2015",
+      "2018",
+      "2021"
+    ],
+    "type": "combo",
+    "description": "Rust edition to use"
   },
   {
     "name": "c_args",
@@ -471,18 +537,16 @@
       "c18",
       "c2x",
       "c23",
-      "c2y",
       "gnu89",
       "gnu99",
       "gnu11",
       "gnu17",
       "gnu18",
       "gnu2x",
-      "gnu23",
-      "gnu2y"
+      "gnu23"
     ],
     "type": "combo",
-    "description": "c language standard to use"
+    "description": "C language standard to use"
   },
   {
     "name": "rust_args",
@@ -509,19 +573,10 @@
       "none",
       "2015",
       "2018",
-      "2021",
-      "2024"
+      "2021"
     ],
     "type": "combo",
     "description": "Rust edition to use"
-  },
-  {
-    "name": "prefix",
-    "value": "/usr/local",
-    "section": "directory",
-    "machine": "any",
-    "type": "string",
-    "description": "Installation prefix"
   },
   {
     "name": "bindir",
@@ -541,7 +596,7 @@
   },
   {
     "name": "includedir",
-    "value": "/data/data/com.termux/files/usr/include",
+    "value": "include",
     "section": "directory",
     "machine": "any",
     "type": "string",
@@ -557,19 +612,11 @@
   },
   {
     "name": "libdir",
-    "value": "/data/data/com.termux/files/usr/lib",
+    "value": "lib",
     "section": "directory",
     "machine": "any",
     "type": "string",
     "description": "Library directory"
-  },
-  {
-    "name": "licensedir",
-    "value": "",
-    "section": "directory",
-    "machine": "any",
-    "type": "string",
-    "description": "Licenses directory"
   },
   {
     "name": "libexecdir",
@@ -578,6 +625,14 @@
     "machine": "any",
     "type": "string",
     "description": "Library executable directory"
+  },
+  {
+    "name": "licensedir",
+    "value": "",
+    "section": "directory",
+    "machine": "any",
+    "type": "string",
+    "description": "Licenses directory"
   },
   {
     "name": "localedir",
@@ -602,6 +657,14 @@
     "machine": "any",
     "type": "string",
     "description": "Manual page directory"
+  },
+  {
+    "name": "prefix",
+    "value": "/usr/local",
+    "section": "directory",
+    "machine": "any",
+    "type": "string",
+    "description": "Installation prefix"
   },
   {
     "name": "sbindir",

@@ -1,0 +1,10 @@
+{
+  "version": "25.2.0-devel",
+  "descriptive_name": "mesa",
+  "license": [
+    "MIT"
+  ],
+  "license_files": [],
+  "subproject_dir": "subprojects",
+  "subprojects": []
+}

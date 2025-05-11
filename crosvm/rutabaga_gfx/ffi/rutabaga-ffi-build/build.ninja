@@ -18,8 +18,8 @@ rule CUSTOM_COMMAND
  restat = 1
 
 rule REGENERATE_BUILD
- command = /data/data/com.termux/files/usr/bin/meson --internal regenerate /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi .
- description = Regenerating build files
+ command = /usr/bin/meson --internal regenerate /home/user/Ramin/crosvm/rutabaga_gfx/ffi .
+ description = Regenerating build files.
  generator = 1
 
 # Phony build target, always out of date
@@ -28,24 +28,24 @@ build PHONY: phony
 
 # Build rules for targets
 
-build librutabaga_gfx_ffi.so librutabaga_gfx_ffi.so.0 librutabaga_gfx_ffi.so.0.1.6: CUSTOM_COMMAND ../src/lib.rs ../Cargo.toml ../build.rs ../build.sh | /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.sh
- COMMAND = /bin/bash /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.sh '' /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build librutabaga_gfx_ffi.so 0.1.6 debug ''
+build librutabaga_gfx_ffi.so librutabaga_gfx_ffi.so.0 librutabaga_gfx_ffi.so.0.1.6: CUSTOM_COMMAND ../src/lib.rs ../Cargo.toml ../build.rs ../build.sh | /home/user/Ramin/crosvm/rutabaga_gfx/ffi/build.sh
+ COMMAND = /bin/bash /home/user/Ramin/crosvm/rutabaga_gfx/ffi/build.sh '' /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build librutabaga_gfx_ffi.so 0.1.6 debug ''
  description = Generating$ rutabaga_gfx_ffi_build$ with$ a$ custom$ command
 
 # Test rules
 
 build test: phony meson-internal__test
 
-build meson-internal__test: CUSTOM_COMMAND all meson-test-prereq PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson test --no-rebuild --print-errorlogs
- DESC = Running$ all$ tests
+build meson-internal__test: CUSTOM_COMMAND all PHONY
+ COMMAND = /usr/bin/meson test --no-rebuild --print-errorlogs
+ DESC = Running$ all$ tests.
  pool = console
 
 build benchmark: phony meson-internal__benchmark
 
-build meson-internal__benchmark: CUSTOM_COMMAND all meson-benchmark-prereq PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild
- DESC = Running$ benchmark$ suite
+build meson-internal__benchmark: CUSTOM_COMMAND all PHONY
+ COMMAND = /usr/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild
+ DESC = Running$ benchmark$ suite.
  pool = console
 
 # Install rules
@@ -53,44 +53,26 @@ build meson-internal__benchmark: CUSTOM_COMMAND all meson-benchmark-prereq PHONY
 build install: phony meson-internal__install
 
 build meson-internal__install: CUSTOM_COMMAND PHONY | all
- DESC = Installing$ files
- COMMAND = /data/data/com.termux/files/usr/bin/meson install --no-rebuild
+ DESC = Installing$ files.
+ COMMAND = /usr/bin/meson install --no-rebuild
  pool = console
 
 build dist: phony meson-internal__dist
 
 build meson-internal__dist: CUSTOM_COMMAND PHONY
  DESC = Creating$ source$ packages
- COMMAND = /data/data/com.termux/files/usr/bin/meson dist
+ COMMAND = /usr/bin/meson dist
  pool = console
 
 # Suffix
 
-build scan-build: phony meson-internal__scan-build
-
-build meson-internal__scan-build: CUSTOM_COMMAND PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson --internal scanbuild /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build subprojects /data/data/com.termux/files/usr/bin/meson setup
- pool = console
-
-build clippy: phony meson-internal__clippy
-
-build meson-internal__clippy: CUSTOM_COMMAND PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson --internal clippy /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build
- pool = console
-
-build rustdoc: phony meson-internal__rustdoc
-
-build meson-internal__rustdoc: CUSTOM_COMMAND PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson --internal rustdoc /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build
- pool = console
-
 build uninstall: phony meson-internal__uninstall
 
 build meson-internal__uninstall: CUSTOM_COMMAND PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson --internal uninstall
+ COMMAND = /usr/bin/meson --internal uninstall
  pool = console
 
-build all: phony librutabaga_gfx_ffi.so
+build all: phony meson-test-prereq meson-benchmark-prereq librutabaga_gfx_ffi.so
 
 build meson-test-prereq: phony 
 
@@ -101,20 +83,20 @@ build clean: phony meson-internal__clean
 build clean-ctlist: phony meson-internal__clean-ctlist
 
 build meson-internal__clean-ctlist: CUSTOM_COMMAND PHONY
- COMMAND = /data/data/com.termux/files/usr/bin/meson --internal cleantrees /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/cleantrees.dat
+ COMMAND = /usr/bin/meson --internal cleantrees /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/cleantrees.dat
  description = Cleaning$ custom$ target$ directories
 
 build meson-internal__clean: CUSTOM_COMMAND PHONY | clean-ctlist
- COMMAND = /data/data/com.termux/files/usr/bin/ninja -t clean
+ COMMAND = /usr/bin/ninja -t clean
  description = Cleaning
 
-build build.ninja: REGENERATE_BUILD ../meson.build /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/meson_options.txt meson-private/coredata.dat
+build build.ninja: REGENERATE_BUILD ../meson.build ../meson_options.txt meson-private/coredata.dat
  pool = console
 
 build reconfigure: REGENERATE_BUILD PHONY
  pool = console
 
-build ../meson.build /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/meson_options.txt meson-private/coredata.dat: phony 
+build ../meson.build ../meson_options.txt meson-private/coredata.dat: phony 
 
 default all
 

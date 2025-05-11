@@ -1,0 +1,18 @@
+{
+  "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/libvulkan_gfxstream.so": "/usr/lib/libvulkan_gfxstream.so",
+  "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/gfxstream_vk_icd.aarch64.json": "/usr/local/share/vulkan/icd.d/gfxstream_vk_icd.aarch64.json",
+  "/home/user/Ramin/JunkYardVGPU/mesa/src/util/00-mesa-defaults.conf": "/usr/local/share/drirc.d/00-mesa-defaults.conf",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/KHR/khrplatform.h": "/usr/include/KHR/khrplatform.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/egl.h": "/usr/include/GLES/egl.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/gl.h": "/usr/include/GLES/gl.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/glext.h": "/usr/include/GLES/glext.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/glplatform.h": "/usr/include/GLES/glplatform.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2.h": "/usr/include/GLES2/gl2.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2ext.h": "/usr/include/GLES2/gl2ext.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2platform.h": "/usr/include/GLES2/gl2platform.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3.h": "/usr/include/GLES3/gl3.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl31.h": "/usr/include/GLES3/gl31.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl32.h": "/usr/include/GLES3/gl32.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3ext.h": "/usr/include/GLES3/gl3ext.h",
+  "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3platform.h": "/usr/include/GLES3/gl3platform.h"
+}

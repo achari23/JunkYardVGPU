@@ -1,0 +1,2 @@
+cargo:rerun-if-changed=build.rs
+cargo:rustc-cdylib-link-arg=-Wl,-soname,librutabaga_gfx_ffi.so.0

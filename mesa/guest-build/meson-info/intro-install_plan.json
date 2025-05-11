@@ -1,0 +1,90 @@
+{
+  "targets": {
+    "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/libvulkan_gfxstream.so": {
+      "destination": "{libdir_shared}/libvulkan_gfxstream.so",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/gfxstream_vk_icd.aarch64.json": {
+      "destination": "{datadir}/vulkan/icd.d/gfxstream_vk_icd.aarch64.json",
+      "tag": null,
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/home/user/Ramin/JunkYardVGPU/mesa/src/util/00-mesa-defaults.conf": {
+      "destination": "{datadir}/drirc.d/00-mesa-defaults.conf",
+      "tag": "runtime",
+      "subproject": null
+    }
+  },
+  "headers": {
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/KHR/khrplatform.h": {
+      "destination": "{includedir}/KHR/khrplatform.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/egl.h": {
+      "destination": "{includedir}/GLES/egl.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/gl.h": {
+      "destination": "{includedir}/GLES/gl.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/glext.h": {
+      "destination": "{includedir}/GLES/glext.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES/glplatform.h": {
+      "destination": "{includedir}/GLES/glplatform.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2.h": {
+      "destination": "{includedir}/GLES2/gl2.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2ext.h": {
+      "destination": "{includedir}/GLES2/gl2ext.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES2/gl2platform.h": {
+      "destination": "{includedir}/GLES2/gl2platform.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3.h": {
+      "destination": "{includedir}/GLES3/gl3.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl31.h": {
+      "destination": "{includedir}/GLES3/gl31.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl32.h": {
+      "destination": "{includedir}/GLES3/gl32.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3ext.h": {
+      "destination": "{includedir}/GLES3/gl3ext.h",
+      "tag": "devel",
+      "subproject": null
+    },
+    "/home/user/Ramin/JunkYardVGPU/mesa/include/GLES3/gl3platform.h": {
+      "destination": "{includedir}/GLES3/gl3platform.h",
+      "tag": "devel",
+      "subproject": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[options]
+vulkan-drivers = gfxstream
+gallium-drivers = zink
+opengl = false
+includedir = /usr/include
+libdir = /usr/lib
+
+[properties]
+

@@ -1,8 +1,0 @@
-/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/debug/deps/libzerocopy_derive-ea549e28f28ab782.so: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/enum.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/ext.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/repr.rs
-
-/data/data/com.termux/files/home/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/debug/deps/zerocopy_derive-ea549e28f28ab782.d: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/enum.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/ext.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/repr.rs
-
-/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/lib.rs:
-/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/enum.rs:
-/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/ext.rs:
-/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-derive-0.8.25/src/repr.rs:

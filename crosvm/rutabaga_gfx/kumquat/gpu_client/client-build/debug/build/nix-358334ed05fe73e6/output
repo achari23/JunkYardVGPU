@@ -1,2 +1,0 @@
-cargo:rustc-cfg=android
-cargo:rustc-cfg=linux_android

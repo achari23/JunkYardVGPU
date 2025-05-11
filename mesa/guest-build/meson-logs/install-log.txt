@@ -1,0 +1,22 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/lib/libvulkan_gfxstream.so
+/usr/local/share/vulkan/icd.d/gfxstream_vk_icd.aarch64.json
+/usr/include/KHR/khrplatform.h
+/usr/include/GLES/egl.h
+/usr/include/GLES/gl.h
+/usr/include/GLES/glext.h
+/usr/include/GLES/glplatform.h
+/usr/include/GLES2/gl2.h
+/usr/include/GLES2/gl2ext.h
+/usr/include/GLES2/gl2platform.h
+/usr/include/GLES3/gl3.h
+/usr/include/GLES3/gl31.h
+/usr/include/GLES3/gl32.h
+/usr/include/GLES3/gl3ext.h
+/usr/include/GLES3/gl3platform.h
+/usr/local/share/drirc.d/00-mesa-defaults.conf
+/usr/include/GLES3
+/usr/include/GLES2
+/usr/include/GLES
+/usr/include/KHR

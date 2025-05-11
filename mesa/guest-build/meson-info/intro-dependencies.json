@@ -1,0 +1,1261 @@
+[
+  {
+    "name": "zlib",
+    "type": "pkgconfig",
+    "version": "1.3.1",
+    "compile_args": [
+      "-I/usr/local/include"
+    ],
+    "link_args": [
+      "/usr/local/lib/libz.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_zlib"
+    ]
+  },
+  {
+    "name": "threads",
+    "type": "system",
+    "version": "unknown",
+    "compile_args": [
+      "-pthread"
+    ],
+    "link_args": [
+      "-pthread"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_thread"
+    ]
+  },
+  {
+    "name": "expat",
+    "type": "pkgconfig",
+    "version": "2.7.1",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libexpat.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_expat"
+    ]
+  },
+  {
+    "name": "libdrm",
+    "type": "pkgconfig",
+    "version": "2.4.124",
+    "compile_args": [
+      "-I/usr/include/libdrm"
+    ],
+    "link_args": [
+      "/usr/lib/libdrm.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_libdrm"
+    ]
+  },
+  {
+    "name": "wayland-scanner",
+    "type": "pkgconfig",
+    "version": "1.23.1",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_wl_scanner"
+    ]
+  },
+  {
+    "name": "wayland-protocols",
+    "type": "pkgconfig",
+    "version": "1.41",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_wl_protocols"
+    ]
+  },
+  {
+    "name": "wayland-client",
+    "type": "pkgconfig",
+    "version": "1.23.1",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libwayland-client.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_wayland_client"
+    ]
+  },
+  {
+    "name": "wayland-server",
+    "type": "pkgconfig",
+    "version": "1.23.1",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libwayland-server.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_wayland_server"
+    ]
+  },
+  {
+    "name": "xcb",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb"
+    ]
+  },
+  {
+    "name": "xcb-randr",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-randr.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_xrandr"
+    ]
+  },
+  {
+    "name": "x11-xcb",
+    "type": "pkgconfig",
+    "version": "1.8.11",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libX11-xcb.so",
+      "/usr/lib/libX11.so",
+      "/usr/lib/libxcb.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_x11_xcb"
+    ]
+  },
+  {
+    "name": "xcb-dri2",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-dri2.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_dri2"
+    ]
+  },
+  {
+    "name": "xcb-dri3",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-dri3.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_dri3"
+    ]
+  },
+  {
+    "name": "xcb-present",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-present.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_present"
+    ]
+  },
+  {
+    "name": "xcb-shm",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-shm.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_shm"
+    ]
+  },
+  {
+    "name": "xcb-sync",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-sync.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_sync"
+    ]
+  },
+  {
+    "name": "xshmfence",
+    "type": "pkgconfig",
+    "version": "1.3.3",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxshmfence.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xshmfence"
+    ]
+  },
+  {
+    "name": "xcb-xfixes",
+    "type": "pkgconfig",
+    "version": "1.17.0",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libxcb-xfixes.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xcb_xfixes"
+    ]
+  },
+  {
+    "name": "xrandr",
+    "type": "pkgconfig",
+    "version": "1.5.4",
+    "compile_args": [],
+    "link_args": [
+      "/usr/lib/libXrandr.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_xlib_xrandr"
+    ]
+  },
+  {
+    "name": "virtgpu_kumquat_ffi",
+    "type": "pkgconfig",
+    "version": "0.1.3",
+    "compile_args": [
+      "-I/usr/local/include"
+    ],
+    "link_args": [
+      "/usr/lib/libvirtgpu_kumquat_ffi.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "virtgpu_kumquat_dep"
+    ]
+  },
+  {
+    "name": "m",
+    "type": "library",
+    "version": "unknown",
+    "compile_args": [],
+    "link_args": [
+      "-lm"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "dep_m"
+    ]
+  },
+  {
+    "name": "dep547913705152",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/gtest/include",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gtest/include"
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "threads"
+    ],
+    "depends": [
+      "8dc338d@@gtest@sta"
+    ],
+    "meson_variables": [
+      "idep_gtest"
+    ]
+  },
+  {
+    "name": "dep547910750656",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/c11/impl/../..",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/c11/impl/../.."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "",
+      "threads",
+      "",
+      "m",
+      "valgrind"
+    ],
+    "depends": [
+      "386bff7@@mesa_util_c11@sta"
+    ],
+    "meson_variables": [
+      "idep_mesautilc11"
+    ]
+  },
+  {
+    "name": "dep547911851168",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "cbe03c4@@blake3@sta"
+    ],
+    "meson_variables": [
+      "idep_blake3"
+    ]
+  },
+  {
+    "name": "dep547912522384",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "u_format_gen.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_mesautilformat"
+    ]
+  },
+  {
+    "name": "dep547912493264",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/include/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/include/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/util/..",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/.."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "zlib",
+      "",
+      "threads",
+      "",
+      "m",
+      "valgrind",
+      "libzstd",
+      "",
+      "libunwind",
+      "",
+      "dep547911851168",
+      "dep547910750656",
+      "dep547912522384",
+      "libdrm"
+    ],
+    "depends": [
+      "ed6d25d@@mesa_util@sta"
+    ],
+    "meson_variables": [
+      "idep_mesautil"
+    ]
+  },
+  {
+    "name": "dep547912497488",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "expat",
+      ""
+    ],
+    "depends": [
+      "ed6d25d@@xmlconfig@sta"
+    ],
+    "meson_variables": [
+      "idep_xmlconfig"
+    ]
+  },
+  {
+    "name": "dep547912493792",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "ed6d25d@@parson@sta"
+    ],
+    "meson_variables": [
+      "idep_parson"
+    ]
+  },
+  {
+    "name": "dep547911327360",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "dispatch.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_dispatch_h"
+    ]
+  },
+  {
+    "name": "dep547907989344",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/compiler/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/."
+    ],
+    "sources": [
+      "ir_expression_operation.h",
+      "builtin_types.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "0bd8b88@@compiler@sta"
+    ],
+    "meson_variables": [
+      "idep_compiler"
+    ]
+  },
+  {
+    "name": "dep547906917376",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/compiler/nir/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/nir/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/compiler/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/include/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/include/."
+    ],
+    "sources": [
+      "nir_opcodes.h",
+      "nir_builder_opcodes.h",
+      "nir_intrinsics.h",
+      "nir_intrinsics_indices.h",
+      "ir_expression_operation.h",
+      "builtin_types.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_nir_headers"
+    ]
+  },
+  {
+    "name": "dep547906917856",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep547906917376",
+      "dep547912493264",
+      "dep547907989344"
+    ],
+    "depends": [
+      "068b2c8@@nir@sta"
+    ],
+    "meson_variables": [
+      "idep_nir"
+    ]
+  },
+  {
+    "name": "dep547916423120",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "spirv_info.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "SPIRV-Tools",
+      "dep547906917856",
+      "dep547912493264"
+    ],
+    "depends": [
+      "e129d53@@vtn@sta"
+    ],
+    "meson_variables": [
+      "idep_vtn"
+    ]
+  },
+  {
+    "name": "dep547907224304",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "ir_expression_operation.h",
+      "cross_platform_settings_piece_all.h",
+      "bc1_glsl.h",
+      "bc4_glsl.h",
+      "etc2_rgba_stitch_glsl.h",
+      "astc_glsl.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "cdfbb49@@glsl@sta"
+    ],
+    "meson_variables": [
+      "idep_libglsl"
+    ]
+  },
+  {
+    "name": "dep547908030864",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/compiler/isaspec/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/isaspec/."
+    ],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_isaspec_decode"
+    ]
+  },
+  {
+    "name": "dep547912718272",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [
+      "-DVK_USE_PLATFORM_XCB_KHR",
+      "-DVK_USE_PLATFORM_XLIB_KHR",
+      "-DVK_USE_PLATFORM_WAYLAND_KHR",
+      "-DVK_USE_PLATFORM_DISPLAY_KHR",
+      "-DVK_USE_PLATFORM_XLIB_XRANDR_EXT"
+    ],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "xcb",
+      "x11-xcb",
+      "xcb-dri3",
+      "xcb-present",
+      "xcb-xfixes",
+      "xcb-sync",
+      "xcb-randr",
+      "xcb-shm",
+      "xshmfence",
+      "wayland-client",
+      "libdrm",
+      "xrandr"
+    ],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_wsi_defines"
+    ]
+  },
+  {
+    "name": "dep547907642256",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/vulkan/util/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/util/."
+    ],
+    "sources": [
+      "vk_dispatch_table.h",
+      "vk_enum_to_str.h",
+      "vk_struct_type_cast.h",
+      "vk_extensions.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_util_headers"
+    ]
+  },
+  {
+    "name": "dep547907642352",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep547907642256",
+      "dep547912493264"
+    ],
+    "depends": [
+      "c053ff2@@vulkan_util@sta"
+    ],
+    "meson_variables": [
+      "idep_vulkan_util"
+    ]
+  },
+  {
+    "name": "dep547905128160",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "spirv_info.h",
+      "vk_cmd_enqueue_entrypoints.h",
+      "vk_cmd_queue.h",
+      "vk_common_entrypoints.h",
+      "vk_dispatch_trampolines.h",
+      "vk_format_info.h",
+      "vk_physical_device_features.h",
+      "vk_physical_device_properties.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "vulkan_lite_runtime_header_gen_deps"
+    ]
+  },
+  {
+    "name": "dep547904975600",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/vulkan/runtime/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/runtime/."
+    ],
+    "sources": [
+      "spirv_info.h",
+      "vk_cmd_enqueue_entrypoints.h",
+      "vk_cmd_queue.h",
+      "vk_common_entrypoints.h",
+      "vk_physical_device_features.h",
+      "vk_physical_device_properties.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_lite_runtime_headers"
+    ]
+  },
+  {
+    "name": "dep547907226992",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep547904975600"
+    ],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_lite_runtime"
+    ]
+  },
+  {
+    "name": "dep547904795664",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_runtime_body"
+    ]
+  },
+  {
+    "name": "dep547904970176",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep547904975600",
+      "dep547904969648",
+      "dep547904795664"
+    ],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_runtime"
+    ]
+  },
+  {
+    "name": "dep547907735376",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [
+      "/home/user/Ramin/JunkYardVGPU/mesa/src/vulkan/wsi/.",
+      "/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/wsi/."
+    ],
+    "sources": [
+      "wsi_common_entrypoints.h"
+    ],
+    "extra_files": [],
+    "dependencies": [
+      "dep547912718272"
+    ],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_wsi_headers"
+    ]
+  },
+  {
+    "name": "dep547911051760",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [
+      "dep547907735376",
+      "libudev"
+    ],
+    "depends": [],
+    "meson_variables": [
+      "idep_vulkan_wsi"
+    ]
+  },
+  {
+    "name": "dep547903958208",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [
+      "u_tracepoints.h"
+    ],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "idep_u_tracepoints"
+    ]
+  },
+  {
+    "name": "dep547910753296",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_softpipe"
+    ]
+  },
+  {
+    "name": "dep547906115184",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_llvmpipe"
+    ]
+  },
+  {
+    "name": "dep547906922032",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_swrast"
+    ]
+  },
+  {
+    "name": "dep547906917952",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_asahi"
+    ]
+  },
+  {
+    "name": "dep547906926448",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_r300"
+    ]
+  },
+  {
+    "name": "dep547906925680",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_r600"
+    ]
+  },
+  {
+    "name": "dep547906912720",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_radeonsi"
+    ]
+  },
+  {
+    "name": "dep547906922608",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_nouveau"
+    ]
+  },
+  {
+    "name": "dep547906923376",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_freedreno"
+    ]
+  },
+  {
+    "name": "dep547908012608",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_vc4"
+    ]
+  },
+  {
+    "name": "dep547908019664",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_panfrost"
+    ]
+  },
+  {
+    "name": "dep547908010736",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_etnaviv"
+    ]
+  },
+  {
+    "name": "dep547908011504",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_kmsro"
+    ]
+  },
+  {
+    "name": "dep547908013424",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_v3d"
+    ]
+  },
+  {
+    "name": "dep547908021392",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_tegra"
+    ]
+  },
+  {
+    "name": "dep547908018032",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_crocus"
+    ]
+  },
+  {
+    "name": "dep547908019040",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_iris"
+    ]
+  },
+  {
+    "name": "dep547908014240",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_i915"
+    ]
+  },
+  {
+    "name": "dep547908017936",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_svga"
+    ]
+  },
+  {
+    "name": "dep547912839296",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_virgl"
+    ]
+  },
+  {
+    "name": "dep547903961616",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_lima"
+    ]
+  },
+  {
+    "name": "dep547905136560",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [
+      "-DGALLIUM_ZINK"
+    ],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [
+      "3d02308@@zink@sta"
+    ],
+    "meson_variables": [
+      "driver_zink"
+    ]
+  },
+  {
+    "name": "dep547912525600",
+    "type": "internal",
+    "version": "25.2.0-devel",
+    "compile_args": [],
+    "link_args": [],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "driver_d3d12"
+    ]
+  }
+]

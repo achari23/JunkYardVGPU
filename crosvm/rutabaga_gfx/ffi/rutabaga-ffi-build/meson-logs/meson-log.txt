@@ -1,103 +1,93 @@
-Build started at 2025-05-08T14:34:19.293017
-Main binary: /data/data/com.termux/files/usr/bin/python3.12
-Build Options: -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib
+Build started at 2025-05-10T17:25:15.971886
+Main binary: /usr/bin/python3
+Build Options: 
 Python system: Linux
 The Meson build system
-Version: 1.8.0
-Source dir: /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi
-Build dir: /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build
+Version: 1.6.1
+Source dir: /home/user/Ramin/crosvm/rutabaga_gfx/ffi
+Build dir: /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build
 Build type: native build
 Project name: rutabaga_gfx_ffi
 Project version: 0.1.6
 -----------
-Detecting compiler via: `cc --version` -> 0
+Detecting compiler via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --version` -> 0
 stdout:
-clang version 20.1.3
-Target: aarch64-unknown-linux-android24
-Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
+aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 -----------
-Running command: -x c -E -dM -
+Running command: -cpp -x c -E -dM -
 -----
 -----------
-Detecting linker via: `cc -Wl,--version` -> 0
+Detecting linker via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
------------
------------
-Detecting LLD linker via: `cc -Wl,-v` -> 1
-stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+GNU ld (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
 -----------
 stderr:
-ld.lld: error: undefined symbol: main
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
-cc: error: linker command failed with exit code 1 (use -v to see invocation)
+collect2 version 14.2.0
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cckEgiMn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
-Sanity testing C compiler: cc
+Sanity testing C compiler: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0
 Is cross compiler: False.
-Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compiler command line: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
 Sanity check compile stdout:
 
 -----
 Sanity check compile stderr:
 
 -----
-Running test binary command:  /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
-C compiler for the host machine: cc (clang 20.1.3 "clang version 20.1.3")
-C linker for the host machine: cc ld.lld 20.1.3
+Running test binary command:  /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
+C compiler for the host machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (gcc 14.2.0 "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0")
+C linker for the host machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 -----------
-Detecting archiver via: `llvm-ar-20 --version` -> [Errno 2] No such file or directory: 'llvm-ar-20'
------------
-Detecting archiver via: `llvm-ar --version` -> 0
+Detecting archiver via: `gcc-ar --version` -> 0
 stdout:
-LLVM (http://llvm.org/):
-  LLVM version 20.1.3
-  Optimized build.
+GNU ar (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
 -----------
 -----------
-Detecting compiler via: `cc --version` -> 0
+Detecting compiler via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --version` -> 0
 stdout:
-clang version 20.1.3
-Target: aarch64-unknown-linux-android24
-Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
+aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 -----------
-Running command: -x c -E -dM -
+Running command: -cpp -x c -E -dM -
 -----
 -----------
-Detecting linker via: `cc -Wl,--version` -> 0
+Detecting linker via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
------------
------------
-Detecting LLD linker via: `cc -Wl,-v` -> 1
-stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+GNU ld (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
 -----------
 stderr:
-ld.lld: error: undefined symbol: main
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
-cc: error: linker command failed with exit code 1 (use -v to see invocation)
+collect2 version 14.2.0
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceEJfBD.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 -----------
 Detecting compiler via: `rustc --version` -> 0
 stdout:
-rustc 1.86.0 (05f9846f8 2025-03-31) (built from a source tarball)
+rustc 1.86.0 (05f9846f8 2025-03-31) (Alpine Linux 1.86.0-r2)
 -----------
 -----------
-Called: `rustc -C linker=cc -o /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest.exe /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
 -----------
-Called: `rustc -C linker=cc --crate-type staticlib --print native-static-libs /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
 stderr:
 warning: function `main` is never used
- --> /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs:1:4
+ --> /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs:1:4
   |
 1 | fn main() {
   |    ^^^^
@@ -106,101 +96,91 @@ warning: function `main` is never used
 
 note: Link against the following native artifacts when linking against this static library. The order and any duplication can be significant on some platforms.
 
-note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
+note: native-static-libs: -lgcc_s -lc
 
 warning: 1 warning emitted
 -----------
-Rust compiler for the host machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
-Rust linker for the host machine: rustc -C linker=cc ld.lld 20.1.3
+Rust compiler for the host machine: rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (rustc 1.86.0)
+Rust linker for the host machine: rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 -----------
-Detecting compiler via: `cc --version` -> 0
+Detecting compiler via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --version` -> 0
 stdout:
-clang version 20.1.3
-Target: aarch64-unknown-linux-android24
-Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
+aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 -----------
-Running command: -x c -E -dM -
+Running command: -cpp -x c -E -dM -
 -----
 -----------
-Detecting linker via: `cc -Wl,--version` -> 0
+Detecting linker via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
------------
------------
-Detecting LLD linker via: `cc -Wl,-v` -> 1
-stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+GNU ld (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
 -----------
 stderr:
-ld.lld: error: undefined symbol: main
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
-cc: error: linker command failed with exit code 1 (use -v to see invocation)
+collect2 version 14.2.0
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMJBfee.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
-Sanity testing C compiler: cc
+Sanity testing C compiler: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0
 Is cross compiler: False.
-Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compiler command line: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
 Sanity check compile stdout:
 
 -----
 Sanity check compile stderr:
 
 -----
-Running test binary command:  /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
-C compiler for the build machine: cc (clang 20.1.3 "clang version 20.1.3")
-C linker for the build machine: cc ld.lld 20.1.3
+Running test binary command:  /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
+C compiler for the build machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (gcc 14.2.0 "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0")
+C linker for the build machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 -----------
-Detecting archiver via: `llvm-ar-20 --version` -> [Errno 2] No such file or directory: 'llvm-ar-20'
------------
-Detecting archiver via: `llvm-ar --version` -> 0
+Detecting archiver via: `gcc-ar --version` -> 0
 stdout:
-LLVM (http://llvm.org/):
-  LLVM version 20.1.3
-  Optimized build.
+GNU ar (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) any later version.
+This program has absolutely no warranty.
 -----------
 -----------
-Detecting compiler via: `cc --version` -> 0
+Detecting compiler via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --version` -> 0
 stdout:
-clang version 20.1.3
-Target: aarch64-unknown-linux-android24
-Thread model: posix
-InstalledDir: /data/data/com.termux/files/usr/bin
+aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0
+Copyright (C) 2024 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 -----------
-Running command: -x c -E -dM -
+Running command: -cpp -x c -E -dM -
 -----
 -----------
-Detecting linker via: `cc -Wl,--version` -> 0
+Detecting linker via: `/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
------------
------------
-Detecting LLD linker via: `cc -Wl,-v` -> 1
-stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+GNU ld (GNU Binutils) 2.44
+Copyright (C) 2025 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or (at your option) a later version.
+This program has absolutely no warranty.
 -----------
 stderr:
-ld.lld: error: undefined symbol: main
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
->>> referenced by crtbegin.c
->>>               /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:(_start_main)
-cc: error: linker command failed with exit code 1 (use -v to see invocation)
+collect2 version 14.2.0
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOPffmm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 -----------
 Detecting compiler via: `rustc --version` -> 0
 stdout:
-rustc 1.86.0 (05f9846f8 2025-03-31) (built from a source tarball)
+rustc 1.86.0 (05f9846f8 2025-03-31) (Alpine Linux 1.86.0-r2)
 -----------
 -----------
-Called: `rustc -C linker=cc -o /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest.exe /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
 -----------
-Called: `rustc -C linker=cc --crate-type staticlib --print native-static-libs /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
 stderr:
 warning: function `main` is never used
- --> /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs:1:4
+ --> /home/user/Ramin/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs:1:4
   |
 1 | fn main() {
   |    ^^^^
@@ -209,32 +189,26 @@ warning: function `main` is never used
 
 note: Link against the following native artifacts when linking against this static library. The order and any duplication can be significant on some platforms.
 
-note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
+note: native-static-libs: -lgcc_s -lc
 
 warning: 1 warning emitted
 -----------
-Rust compiler for the build machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
-Rust linker for the build machine: rustc -C linker=cc ld.lld 20.1.3
+Rust compiler for the build machine: rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (rustc 1.86.0)
+Rust linker for the build machine: rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 Build machine cpu family: aarch64
 Build machine cpu: aarch64
 Host machine cpu family: aarch64
 Host machine cpu: aarch64
 Target machine cpu family: aarch64
 Target machine cpu: aarch64
-Program build.sh found: YES (/bin/bash /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/build.sh)
+Program build.sh found: YES (/bin/bash /home/user/Ramin/crosvm/rutabaga_gfx/ffi/build.sh)
 Pkg-config binary missing from cross or native file, or env var undefined.
 Trying a default Pkg-config fallback at pkg-config
-Found pkg-config: YES (/data/data/com.termux/files/usr/bin/pkg-config) 0.29.2
+Found pkg-config: YES (/usr/bin/pkg-config) 2.3.0
 Build targets in project: 1
 
-rutabaga_gfx_ffi 0.1.6
-
-  User defined options
-    includedir: /data/data/com.termux/files/usr/include
-    libdir    : /data/data/com.termux/files/usr/lib
-
-Found ninja-1.12.1 at /data/data/com.termux/files/usr/bin/ninja
-Failed to guess install tag for /data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0
-Failed to guess install tag for /data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0.1.6
-Failed to guess install tag for /data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0
-Failed to guess install tag for /data/data/com.termux/files/usr/lib/librutabaga_gfx_ffi.so.0.1.6
+Found ninja-1.9 at /usr/bin/ninja
+Failed to guess install tag for /usr/local/lib/librutabaga_gfx_ffi.so.0
+Failed to guess install tag for /usr/local/lib/librutabaga_gfx_ffi.so.0.1.6
+Failed to guess install tag for /usr/local/lib/librutabaga_gfx_ffi.so.0
+Failed to guess install tag for /usr/local/lib/librutabaga_gfx_ffi.so.0.1.6
