@@ -1,7 +1,7 @@
-prefix=/home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
-includedir=${prefix}/include
-libdir=${prefix}/lib
-srcdir=/home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client
+prefix=/home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
+includedir=/usr/include
+libdir=/usr/lib
+srcdir=/home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client
 
 Name: virtgpu_kumquat_ffi
 Description: C FFI bindings to Rutabaga VGI

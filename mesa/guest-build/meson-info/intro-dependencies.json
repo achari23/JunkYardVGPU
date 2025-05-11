@@ -330,9 +330,7 @@
     "name": "virtgpu_kumquat_ffi",
     "type": "pkgconfig",
     "version": "0.1.3",
-    "compile_args": [
-      "-I/usr/local/include"
-    ],
+    "compile_args": [],
     "link_args": [
       "/usr/lib/libvirtgpu_kumquat_ffi.so"
     ],
@@ -363,7 +361,7 @@
     ]
   },
   {
-    "name": "dep547913705152",
+    "name": "dep548419479232",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -385,7 +383,7 @@
     ]
   },
   {
-    "name": "dep547910750656",
+    "name": "dep548419555728",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -411,7 +409,7 @@
     ]
   },
   {
-    "name": "dep547911851168",
+    "name": "dep548417835456",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -428,7 +426,7 @@
     ]
   },
   {
-    "name": "dep547912522384",
+    "name": "dep548435703088",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -445,7 +443,7 @@
     ]
   },
   {
-    "name": "dep547912493264",
+    "name": "dep548418480576",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -469,9 +467,9 @@
       "",
       "libunwind",
       "",
-      "dep547911851168",
-      "dep547910750656",
-      "dep547912522384",
+      "dep548417835456",
+      "dep548419555728",
+      "dep548435703088",
       "libdrm"
     ],
     "depends": [
@@ -482,7 +480,7 @@
     ]
   },
   {
-    "name": "dep547912497488",
+    "name": "dep548418483888",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -502,7 +500,7 @@
     ]
   },
   {
-    "name": "dep547912493792",
+    "name": "dep548418479712",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -519,7 +517,7 @@
     ]
   },
   {
-    "name": "dep547911327360",
+    "name": "dep548418706352",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -536,7 +534,7 @@
     ]
   },
   {
-    "name": "dep547907989344",
+    "name": "dep548415456992",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -559,7 +557,7 @@
     ]
   },
   {
-    "name": "dep547906917376",
+    "name": "dep548414409808",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -590,7 +588,7 @@
     ]
   },
   {
-    "name": "dep547906917856",
+    "name": "dep548414410336",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -599,9 +597,9 @@
     "sources": [],
     "extra_files": [],
     "dependencies": [
-      "dep547906917376",
-      "dep547912493264",
-      "dep547907989344"
+      "dep548414409808",
+      "dep548418480576",
+      "dep548415456992"
     ],
     "depends": [
       "068b2c8@@nir@sta"
@@ -611,7 +609,7 @@
     ]
   },
   {
-    "name": "dep547916423120",
+    "name": "dep548415290448",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -623,8 +621,8 @@
     "extra_files": [],
     "dependencies": [
       "SPIRV-Tools",
-      "dep547906917856",
-      "dep547912493264"
+      "dep548414410336",
+      "dep548418480576"
     ],
     "depends": [
       "e129d53@@vtn@sta"
@@ -634,7 +632,7 @@
     ]
   },
   {
-    "name": "dep547907224304",
+    "name": "dep548414686848",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -658,7 +656,7 @@
     ]
   },
   {
-    "name": "dep547908030864",
+    "name": "dep548415508256",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -676,7 +674,7 @@
     ]
   },
   {
-    "name": "dep547912718272",
+    "name": "dep548415468944",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [
@@ -710,7 +708,7 @@
     ]
   },
   {
-    "name": "dep547907642256",
+    "name": "dep548415100000",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -733,7 +731,7 @@
     ]
   },
   {
-    "name": "dep547907642352",
+    "name": "dep548415100096",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -742,8 +740,8 @@
     "sources": [],
     "extra_files": [],
     "dependencies": [
-      "dep547907642256",
-      "dep547912493264"
+      "dep548415100000",
+      "dep548418480576"
     ],
     "depends": [
       "c053ff2@@vulkan_util@sta"
@@ -753,7 +751,7 @@
     ]
   },
   {
-    "name": "dep547905128160",
+    "name": "dep548412061312",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -777,7 +775,7 @@
     ]
   },
   {
-    "name": "dep547904975600",
+    "name": "dep548412063424",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -802,7 +800,7 @@
     ]
   },
   {
-    "name": "dep547907226992",
+    "name": "dep548412050128",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -811,7 +809,7 @@
     "sources": [],
     "extra_files": [],
     "dependencies": [
-      "dep547904975600"
+      "dep548412063424"
     ],
     "depends": [],
     "meson_variables": [
@@ -819,7 +817,7 @@
     ]
   },
   {
-    "name": "dep547904795664",
+    "name": "dep548411914000",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -834,7 +832,7 @@
     ]
   },
   {
-    "name": "dep547904970176",
+    "name": "dep548412058240",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -843,9 +841,9 @@
     "sources": [],
     "extra_files": [],
     "dependencies": [
-      "dep547904975600",
-      "dep547904969648",
-      "dep547904795664"
+      "dep548412063424",
+      "dep548412055456",
+      "dep548411914000"
     ],
     "depends": [],
     "meson_variables": [
@@ -853,7 +851,7 @@
     ]
   },
   {
-    "name": "dep547907735376",
+    "name": "dep548415201712",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -867,7 +865,7 @@
     ],
     "extra_files": [],
     "dependencies": [
-      "dep547912718272"
+      "dep548415468944"
     ],
     "depends": [],
     "meson_variables": [
@@ -875,7 +873,7 @@
     ]
   },
   {
-    "name": "dep547911051760",
+    "name": "dep548413630000",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -884,7 +882,7 @@
     "sources": [],
     "extra_files": [],
     "dependencies": [
-      "dep547907735376",
+      "dep548415201712",
       "libudev"
     ],
     "depends": [],
@@ -893,7 +891,7 @@
     ]
   },
   {
-    "name": "dep547903958208",
+    "name": "dep548411070544",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -910,7 +908,7 @@
     ]
   },
   {
-    "name": "dep547910753296",
+    "name": "dep548419765504",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -925,7 +923,7 @@
     ]
   },
   {
-    "name": "dep547906115184",
+    "name": "dep548419768720",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -940,7 +938,7 @@
     ]
   },
   {
-    "name": "dep547906922032",
+    "name": "dep548419776592",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -955,7 +953,7 @@
     ]
   },
   {
-    "name": "dep547906917952",
+    "name": "dep548419765120",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -970,7 +968,7 @@
     ]
   },
   {
-    "name": "dep547906926448",
+    "name": "dep548419780096",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -985,7 +983,7 @@
     ]
   },
   {
-    "name": "dep547906925680",
+    "name": "dep548419773424",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1000,7 +998,7 @@
     ]
   },
   {
-    "name": "dep547906912720",
+    "name": "dep548419773280",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1015,7 +1013,7 @@
     ]
   },
   {
-    "name": "dep547906922608",
+    "name": "dep548419773856",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1030,7 +1028,7 @@
     ]
   },
   {
-    "name": "dep547906923376",
+    "name": "dep548419777312",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1045,7 +1043,7 @@
     ]
   },
   {
-    "name": "dep547908012608",
+    "name": "dep548414411008",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1060,7 +1058,7 @@
     ]
   },
   {
-    "name": "dep547908019664",
+    "name": "dep548414421232",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1075,7 +1073,7 @@
     ]
   },
   {
-    "name": "dep547908010736",
+    "name": "dep548414416192",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1090,7 +1088,7 @@
     ]
   },
   {
-    "name": "dep547908011504",
+    "name": "dep548414423008",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1105,7 +1103,7 @@
     ]
   },
   {
-    "name": "dep547908013424",
+    "name": "dep548414418400",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1120,7 +1118,7 @@
     ]
   },
   {
-    "name": "dep547908021392",
+    "name": "dep548414410912",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1135,7 +1133,7 @@
     ]
   },
   {
-    "name": "dep547908018032",
+    "name": "dep548414409712",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1150,7 +1148,7 @@
     ]
   },
   {
-    "name": "dep547908019040",
+    "name": "dep548414422048",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1165,7 +1163,7 @@
     ]
   },
   {
-    "name": "dep547908014240",
+    "name": "dep548414414992",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1180,7 +1178,7 @@
     ]
   },
   {
-    "name": "dep547908017936",
+    "name": "dep548414409616",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1195,7 +1193,7 @@
     ]
   },
   {
-    "name": "dep547912839296",
+    "name": "dep548415463088",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1210,7 +1208,7 @@
     ]
   },
   {
-    "name": "dep547903961616",
+    "name": "dep548415458048",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],
@@ -1225,7 +1223,7 @@
     ]
   },
   {
-    "name": "dep547905136560",
+    "name": "dep548412253456",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [
@@ -1244,7 +1242,7 @@
     ]
   },
   {
-    "name": "dep547912525600",
+    "name": "dep548415466640",
     "type": "internal",
     "version": "25.2.0-devel",
     "compile_args": [],

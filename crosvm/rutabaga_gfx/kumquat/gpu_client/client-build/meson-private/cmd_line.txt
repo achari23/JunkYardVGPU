@@ -1,4 +1,6 @@
 [options]
+includedir = /usr/include
+libdir = /usr/lib
 
 [properties]
 

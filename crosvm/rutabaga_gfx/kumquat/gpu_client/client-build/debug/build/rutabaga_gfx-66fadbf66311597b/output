@@ -1,4 +1,0 @@
-cargo:rustc-check-cfg=cfg(fence_passing_option1)
-cargo:rustc-check-cfg=cfg(gfxstream_unstable)
-cargo:rustc-check-cfg=cfg(virgl_renderer_unstable)
-cargo:rustc-cfg=fence_passing_option1

@@ -1,11 +1,11 @@
-Build started at 2025-05-10T17:26:44.590358
+Build started at 2025-05-10T19:11:43.247897
 Main binary: /usr/bin/python3
-Build Options: 
+Build Options: -Dincludedir=/usr/include -Dlibdir=/usr/lib
 Python system: Linux
 The Meson build system
 Version: 1.6.1
-Source dir: /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client
-Build dir: /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
+Source dir: /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client
+Build dir: /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
 Build type: native build
 Project name: virtgpu_kumquat_ffi
 Project version: 0.1.3
@@ -30,7 +30,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 14.2.0
-/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGPhGHb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGMEdMb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 Sanity testing C compiler: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0
 Is cross compiler: False.
@@ -41,7 +41,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanitycheckc.exe
+Running test binary command:  /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanitycheckc.exe
 C compiler for the host machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (gcc 14.2.0 "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0")
 C linker for the host machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 -----------
@@ -74,7 +74,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 14.2.0
-/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccONebfg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEJCkjg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 -----------
 Detecting compiler via: `rustc --version` -> 0
@@ -82,12 +82,12 @@ stdout:
 rustc 1.86.0 (05f9846f8 2025-03-31) (Alpine Linux 1.86.0-r2)
 -----------
 -----------
-Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/rusttest /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/rusttest /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
 -----------
-Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
 stderr:
 warning: function `main` is never used
- --> /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs:1:4
+ --> /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs:1:4
   |
 1 | fn main() {
   |    ^^^^
@@ -123,7 +123,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 14.2.0
-/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccphGmhM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNHLCCL.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 Sanity testing C compiler: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0
 Is cross compiler: False.
@@ -134,7 +134,7 @@ Sanity check compile stdout:
 Sanity check compile stderr:
 
 -----
-Running test binary command:  /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanitycheckc.exe
+Running test binary command:  /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanitycheckc.exe
 C compiler for the build machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 (gcc 14.2.0 "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0")
 C linker for the build machine: /usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 ld.bfd 2.44
 -----------
@@ -167,7 +167,7 @@ This program has absolutely no warranty.
 -----------
 stderr:
 collect2 version 14.2.0
-/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEhLnGc.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
+/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/bin/ld -plugin /usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/aarch64-alpine-linux-musl/14.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cceJBNpb.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-musl-aarch64.so.1 -X -EL -maarch64linux -pie -z now /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/Scrt1.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crti.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtbeginS.o -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0 -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../aarch64-alpine-linux-musl/lib -L/usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../.. --version -lssp_nonshared -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/crtendS.o /usr/lib/gcc/aarch64-alpine-linux-musl/14.2.0/../../../../lib/crtn.o
 -----------
 -----------
 Detecting compiler via: `rustc --version` -> 0
@@ -175,12 +175,12 @@ stdout:
 rustc 1.86.0 (05f9846f8 2025-03-31) (Alpine Linux 1.86.0-r2)
 -----------
 -----------
-Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/rusttest /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 -o /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/rusttest /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
 -----------
-Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
+Called: `rustc -C linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0 --crate-type staticlib --print native-static-libs /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs` -> 0
 stderr:
 warning: function `main` is never used
- --> /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs:1:4
+ --> /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build/meson-private/sanity.rs:1:4
   |
 1 | fn main() {
   |    ^^^^
@@ -201,14 +201,20 @@ Host machine cpu family: aarch64
 Host machine cpu: aarch64
 Target machine cpu family: aarch64
 Target machine cpu: aarch64
-Program build.sh found: YES (/bin/bash /home/user/Ramin/crosvm/rutabaga_gfx/kumquat/gpu_client/build.sh)
+Program build.sh found: YES (/bin/bash /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/build.sh)
 Pkg-config binary missing from cross or native file, or env var undefined.
 Trying a default Pkg-config fallback at pkg-config
 Found pkg-config: YES (/usr/bin/pkg-config) 2.3.0
 Build targets in project: 1
 
+virtgpu_kumquat_ffi 0.1.3
+
+  User defined options
+    includedir: /usr/include
+    libdir    : /usr/lib
+
 Found ninja-1.9 at /usr/bin/ninja
-Failed to guess install tag for /usr/local/lib/libvirtgpu_kumquat_ffi.so.0
-Failed to guess install tag for /usr/local/lib/libvirtgpu_kumquat_ffi.so.0.1.3
-Failed to guess install tag for /usr/local/lib/libvirtgpu_kumquat_ffi.so.0
-Failed to guess install tag for /usr/local/lib/libvirtgpu_kumquat_ffi.so.0.1.3
+Failed to guess install tag for /usr/lib/libvirtgpu_kumquat_ffi.so.0
+Failed to guess install tag for /usr/lib/libvirtgpu_kumquat_ffi.so.0.1.3
+Failed to guess install tag for /usr/lib/libvirtgpu_kumquat_ffi.so.0
+Failed to guess install tag for /usr/lib/libvirtgpu_kumquat_ffi.so.0.1.3

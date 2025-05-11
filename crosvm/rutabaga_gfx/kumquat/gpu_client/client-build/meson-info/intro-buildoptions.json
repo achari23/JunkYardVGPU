@@ -596,7 +596,7 @@
   },
   {
     "name": "includedir",
-    "value": "include",
+    "value": "/usr/include",
     "section": "directory",
     "machine": "any",
     "type": "string",
@@ -612,7 +612,7 @@
   },
   {
     "name": "libdir",
-    "value": "lib",
+    "value": "/usr/lib",
     "section": "directory",
     "machine": "any",
     "type": "string",
