@@ -278,9 +278,7 @@
   },
   {
     "name": "pkg_config_path",
-    "value": [
-      "/data/data/com.termux/files/home/aemu/build"
-    ],
+    "value": [],
     "section": "core",
     "machine": "host",
     "type": "array",
@@ -303,17 +301,20 @@
     "description": "Maximum number of linker processes to run or 0 for no limit"
   },
   {
-    "name": "b_pgo",
-    "value": "off",
+    "name": "b_pie",
+    "value": false,
     "section": "base",
     "machine": "any",
-    "choices": [
-      "off",
-      "generate",
-      "use"
-    ],
-    "type": "combo",
-    "description": "Use profile guided optimization"
+    "type": "boolean",
+    "description": "Build executables as position independent"
+  },
+  {
+    "name": "b_sanitize",
+    "value": [],
+    "section": "base",
+    "machine": "any",
+    "type": "array",
+    "description": "Code sanitizer to use"
   },
   {
     "name": "b_colorout",
@@ -329,38 +330,6 @@
     "description": "Use colored output"
   },
   {
-    "name": "b_pch",
-    "value": true,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use precompiled headers"
-  },
-  {
-    "name": "b_lundef",
-    "value": true,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use -Wl,--no-undefined when linking"
-  },
-  {
-    "name": "b_asneeded",
-    "value": true,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use -Wl,--as-needed when linking"
-  },
-  {
-    "name": "b_lto_threads",
-    "value": 0,
-    "section": "base",
-    "machine": "any",
-    "type": "integer",
-    "description": "Use multiple threads for Link Time Optimization"
-  },
-  {
     "name": "b_lto_mode",
     "value": "default",
     "section": "base",
@@ -373,22 +342,6 @@
     "description": "Select between different LTO modes."
   },
   {
-    "name": "b_staticpic",
-    "value": true,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Build static libraries as position independent"
-  },
-  {
-    "name": "b_sanitize",
-    "value": [],
-    "section": "base",
-    "machine": "any",
-    "type": "array",
-    "description": "Code sanitizer to use"
-  },
-  {
     "name": "b_thinlto_cache",
     "value": false,
     "section": "base",
@@ -397,12 +350,12 @@
     "description": "Use LLVM ThinLTO caching for faster incremental builds"
   },
   {
-    "name": "b_coverage",
-    "value": false,
+    "name": "b_asneeded",
+    "value": true,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Enable coverage tracking."
+    "description": "Use -Wl,--as-needed when linking"
   },
   {
     "name": "b_lto",
@@ -421,6 +374,51 @@
     "description": "Directory to store ThinLTO cache objects"
   },
   {
+    "name": "b_lto_threads",
+    "value": 0,
+    "section": "base",
+    "machine": "any",
+    "type": "integer",
+    "description": "Use multiple threads for Link Time Optimization"
+  },
+  {
+    "name": "b_staticpic",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Build static libraries as position independent"
+  },
+  {
+    "name": "b_pgo",
+    "value": "off",
+    "section": "base",
+    "machine": "any",
+    "choices": [
+      "off",
+      "generate",
+      "use"
+    ],
+    "type": "combo",
+    "description": "Use profile guided optimization"
+  },
+  {
+    "name": "b_lundef",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Use -Wl,--no-undefined when linking"
+  },
+  {
+    "name": "b_pch",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Use precompiled headers"
+  },
+  {
     "name": "b_ndebug",
     "value": "if-release",
     "section": "base",
@@ -434,12 +432,12 @@
     "description": "Disable asserts"
   },
   {
-    "name": "b_pie",
+    "name": "b_coverage",
     "value": false,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Build executables as position independent"
+    "description": "Enable coverage tracking."
   },
   {
     "name": "c_args",

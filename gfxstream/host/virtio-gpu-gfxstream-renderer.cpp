@@ -584,10 +584,8 @@ static int stream_renderer_opengles_init(uint32_t display_width, uint32_t displa
 
     EmuglConfig config;
 
-#ifndef GFXSTREAM_MESON_BUILD
     // Make all the console agents available.
-    android::emulation::injectGraphicsAgents(android::emulation::GfxStreamGraphicsAgentFactory());
-#endif
+    injectGraphicsAgents(android::emulation::GfxStreamGraphicsAgentFactory());
 
     emuglConfig_init(&config, true /* gpu enabled */, "auto",
                      enable_egl2egl ? "swiftshader_indirect" : "host", 64, /* bitness */
@@ -978,9 +976,6 @@ VG_EXPORT int stream_renderer_init(struct stream_renderer_param* stream_renderer
                         fb->logVulkanOutOfMemory(result, function, line, allocationSize);
                     }}));
 
-#ifdef GFXSTREAM_MESON_BUILD
-    skip_opengles = true;
-#endif
     if (!skip_opengles) {
         // aemu currently does its own opengles initialization in
         // qemu/android/android-emu/android/opengles.cpp.
@@ -994,7 +989,7 @@ VG_EXPORT int stream_renderer_init(struct stream_renderer_param* stream_renderer
     GFXSTREAM_TRACE_EVENT(GFXSTREAM_TRACE_STREAM_RENDERER_CATEGORY, "stream_renderer_init()");
 
     sFrontend()->init(renderer_cookie, features, fence_callback);
-    gfxstream::FrameBuffer::waitUntilInitialized();
+    //gfxstream::FrameBuffer::waitUntilInitialized();
 
     stream_renderer_info("Gfxstream initialized successfully!");
     return 0;

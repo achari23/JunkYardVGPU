@@ -278,9 +278,7 @@
   },
   {
     "name": "pkg_config_path",
-    "value": [
-      "/data/data/com.termux/files/home/aemu/build"
-    ],
+    "value": [],
     "section": "core",
     "machine": "host",
     "type": "array",
@@ -303,14 +301,6 @@
     "description": "Maximum number of linker processes to run or 0 for no limit"
   },
   {
-    "name": "b_pie",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Build executables as position independent"
-  },
-  {
     "name": "b_pgo",
     "value": "off",
     "section": "base",
@@ -324,25 +314,36 @@
     "description": "Use profile guided optimization"
   },
   {
-    "name": "b_ndebug",
-    "value": "false",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "true",
-      "false",
-      "if-release"
-    ],
-    "type": "combo",
-    "description": "Disable asserts"
-  },
-  {
-    "name": "b_lundef",
-    "value": true,
+    "name": "b_thinlto_cache",
+    "value": false,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Use -Wl,--no-undefined when linking"
+    "description": "Use LLVM ThinLTO caching for faster incremental builds"
+  },
+  {
+    "name": "b_thinlto_cache_dir",
+    "value": "",
+    "section": "base",
+    "machine": "any",
+    "type": "string",
+    "description": "Directory to store ThinLTO cache objects"
+  },
+  {
+    "name": "b_pie",
+    "value": false,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Build executables as position independent"
+  },
+  {
+    "name": "b_sanitize",
+    "value": [],
+    "section": "base",
+    "machine": "any",
+    "type": "array",
+    "description": "Code sanitizer to use"
   },
   {
     "name": "b_colorout",
@@ -358,6 +359,27 @@
     "description": "Use colored output"
   },
   {
+    "name": "b_asneeded",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Use -Wl,--as-needed when linking"
+  },
+  {
+    "name": "b_ndebug",
+    "value": "false",
+    "section": "base",
+    "machine": "any",
+    "choices": [
+      "true",
+      "false",
+      "if-release"
+    ],
+    "type": "combo",
+    "description": "Disable asserts"
+  },
+  {
     "name": "b_lto_mode",
     "value": "default",
     "section": "base",
@@ -370,28 +392,12 @@
     "description": "Select between different LTO modes."
   },
   {
-    "name": "b_coverage",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Enable coverage tracking."
-  },
-  {
-    "name": "b_asneeded",
+    "name": "b_lundef",
     "value": true,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Use -Wl,--as-needed when linking"
-  },
-  {
-    "name": "b_thinlto_cache",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use LLVM ThinLTO caching for faster incremental builds"
+    "description": "Use -Wl,--no-undefined when linking"
   },
   {
     "name": "b_lto",
@@ -402,12 +408,12 @@
     "description": "Use link time optimization"
   },
   {
-    "name": "b_thinlto_cache_dir",
-    "value": "",
+    "name": "b_staticpic",
+    "value": true,
     "section": "base",
     "machine": "any",
-    "type": "string",
-    "description": "Directory to store ThinLTO cache objects"
+    "type": "boolean",
+    "description": "Build static libraries as position independent"
   },
   {
     "name": "b_pch",
@@ -418,28 +424,20 @@
     "description": "Use precompiled headers"
   },
   {
+    "name": "b_coverage",
+    "value": false,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Enable coverage tracking."
+  },
+  {
     "name": "b_lto_threads",
     "value": 0,
     "section": "base",
     "machine": "any",
     "type": "integer",
     "description": "Use multiple threads for Link Time Optimization"
-  },
-  {
-    "name": "b_staticpic",
-    "value": true,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Build static libraries as position independent"
-  },
-  {
-    "name": "b_sanitize",
-    "value": [],
-    "section": "base",
-    "machine": "any",
-    "type": "array",
-    "description": "Code sanitizer to use"
   },
   {
     "name": "c_args",
