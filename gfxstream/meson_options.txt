@@ -532,8 +532,8 @@ option(
   type : 'integer',
   min : 25,
   max : 10000,
-  value : 25,
-  description : 'Android Platform SDK version. Default: Nougat version.'
+  value : 33,
+  description : 'Android Platform SDK version.'
 )
 
 option(
