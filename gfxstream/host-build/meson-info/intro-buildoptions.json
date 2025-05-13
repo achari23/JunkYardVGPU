@@ -301,28 +301,45 @@
     "description": "Maximum number of linker processes to run or 0 for no limit"
   },
   {
-    "name": "b_asneeded",
-    "value": true,
+    "name": "b_sanitize",
+    "value": [],
     "section": "base",
     "machine": "any",
-    "type": "boolean",
-    "description": "Use -Wl,--as-needed when linking"
+    "type": "array",
+    "description": "Code sanitizer to use"
   },
   {
-    "name": "b_lto_threads",
-    "value": 0,
+    "name": "b_colorout",
+    "value": "always",
     "section": "base",
     "machine": "any",
-    "type": "integer",
-    "description": "Use multiple threads for Link Time Optimization"
+    "choices": [
+      "auto",
+      "always",
+      "never"
+    ],
+    "type": "combo",
+    "description": "Use colored output"
   },
   {
-    "name": "b_pch",
-    "value": true,
+    "name": "b_lto_mode",
+    "value": "default",
     "section": "base",
     "machine": "any",
-    "type": "boolean",
-    "description": "Use precompiled headers"
+    "choices": [
+      "default",
+      "thin"
+    ],
+    "type": "combo",
+    "description": "Select between different LTO modes."
+  },
+  {
+    "name": "b_thinlto_cache_dir",
+    "value": "",
+    "section": "base",
+    "machine": "any",
+    "type": "string",
+    "description": "Directory to store ThinLTO cache objects"
   },
   {
     "name": "b_pie",
@@ -333,20 +350,12 @@
     "description": "Build executables as position independent"
   },
   {
-    "name": "b_staticpic",
-    "value": true,
+    "name": "b_lto",
+    "value": false,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Build static libraries as position independent"
-  },
-  {
-    "name": "b_sanitize",
-    "value": [],
-    "section": "base",
-    "machine": "any",
-    "type": "array",
-    "description": "Code sanitizer to use"
+    "description": "Use link time optimization"
   },
   {
     "name": "b_ndebug",
@@ -375,39 +384,6 @@
     "description": "Use profile guided optimization"
   },
   {
-    "name": "b_colorout",
-    "value": "always",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "auto",
-      "always",
-      "never"
-    ],
-    "type": "combo",
-    "description": "Use colored output"
-  },
-  {
-    "name": "b_thinlto_cache",
-    "value": false,
-    "section": "base",
-    "machine": "any",
-    "type": "boolean",
-    "description": "Use LLVM ThinLTO caching for faster incremental builds"
-  },
-  {
-    "name": "b_lto_mode",
-    "value": "default",
-    "section": "base",
-    "machine": "any",
-    "choices": [
-      "default",
-      "thin"
-    ],
-    "type": "combo",
-    "description": "Select between different LTO modes."
-  },
-  {
     "name": "b_lundef",
     "value": true,
     "section": "base",
@@ -416,12 +392,36 @@
     "description": "Use -Wl,--no-undefined when linking"
   },
   {
-    "name": "b_thinlto_cache_dir",
-    "value": "",
+    "name": "b_asneeded",
+    "value": true,
     "section": "base",
     "machine": "any",
-    "type": "string",
-    "description": "Directory to store ThinLTO cache objects"
+    "type": "boolean",
+    "description": "Use -Wl,--as-needed when linking"
+  },
+  {
+    "name": "b_lto_threads",
+    "value": 0,
+    "section": "base",
+    "machine": "any",
+    "type": "integer",
+    "description": "Use multiple threads for Link Time Optimization"
+  },
+  {
+    "name": "b_staticpic",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Build static libraries as position independent"
+  },
+  {
+    "name": "b_pch",
+    "value": true,
+    "section": "base",
+    "machine": "any",
+    "type": "boolean",
+    "description": "Use precompiled headers"
   },
   {
     "name": "b_coverage",
@@ -432,12 +432,12 @@
     "description": "Enable coverage tracking."
   },
   {
-    "name": "b_lto",
+    "name": "b_thinlto_cache",
     "value": false,
     "section": "base",
     "machine": "any",
     "type": "boolean",
-    "description": "Use link time optimization"
+    "description": "Use LLVM ThinLTO caching for faster incremental builds"
   },
   {
     "name": "c_args",

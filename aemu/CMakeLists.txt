@@ -48,7 +48,7 @@ endif()
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_C_STANDARD 11)
-set(CMAKE_ANDROID_API 33)
+set(ANDROID_PLATFORM android-33)
 
 if (MSVC)
     # ask msvc not to warn not secure C ISO functions

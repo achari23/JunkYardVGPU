@@ -1,6 +1,6 @@
-Build started at 2025-05-12T17:33:44.430926
+Build started at 2025-05-12T18:46:20.323365
 Main binary: /data/data/com.termux/files/usr/bin/python3.12
-Build Options: -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
+Build Options: -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
 Python system: Linux
 The Meson build system
 Version: 1.8.0
@@ -12,7 +12,7 @@ Project version: 0.1.6
 -----------
 Detecting compiler via: `cc --version` -> 0
 stdout:
-clang version 20.1.3
+clang version 20.1.4
 Target: aarch64-unknown-linux-android24
 Thread model: posix
 InstalledDir: /data/data/com.termux/files/usr/bin
@@ -22,12 +22,12 @@ Running command: -x c -E -dM -
 -----------
 Detecting linker via: `cc -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 -----------
 Detecting LLD linker via: `cc -Wl,-v` -> 1
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 stderr:
 ld.lld: error: undefined symbol: main
@@ -47,21 +47,21 @@ Sanity check compile stderr:
 
 -----
 Running test binary command:  /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
-C compiler for the host machine: cc (clang 20.1.3 "clang version 20.1.3")
-C linker for the host machine: cc ld.lld 20.1.3
+C compiler for the host machine: cc (clang 20.1.4 "clang version 20.1.4")
+C linker for the host machine: cc ld.lld 20.1.4
 -----------
 Detecting archiver via: `llvm-ar-20 --version` -> [Errno 2] No such file or directory: 'llvm-ar-20'
 -----------
 Detecting archiver via: `llvm-ar --version` -> 0
 stdout:
 LLVM (http://llvm.org/):
-  LLVM version 20.1.3
+  LLVM version 20.1.4
   Optimized build.
 -----------
 -----------
 Detecting compiler via: `cc --version` -> 0
 stdout:
-clang version 20.1.3
+clang version 20.1.4
 Target: aarch64-unknown-linux-android24
 Thread model: posix
 InstalledDir: /data/data/com.termux/files/usr/bin
@@ -71,12 +71,12 @@ Running command: -x c -E -dM -
 -----------
 Detecting linker via: `cc -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 -----------
 Detecting LLD linker via: `cc -Wl,-v` -> 1
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 stderr:
 ld.lld: error: undefined symbol: main
@@ -111,11 +111,11 @@ note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
 warning: 1 warning emitted
 -----------
 Rust compiler for the host machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
-Rust linker for the host machine: rustc -C linker=cc ld.lld 20.1.3
+Rust linker for the host machine: rustc -C linker=cc ld.lld 20.1.4
 -----------
 Detecting compiler via: `cc --version` -> 0
 stdout:
-clang version 20.1.3
+clang version 20.1.4
 Target: aarch64-unknown-linux-android24
 Thread model: posix
 InstalledDir: /data/data/com.termux/files/usr/bin
@@ -125,12 +125,12 @@ Running command: -x c -E -dM -
 -----------
 Detecting linker via: `cc -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 -----------
 Detecting LLD linker via: `cc -Wl,-v` -> 1
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 stderr:
 ld.lld: error: undefined symbol: main
@@ -150,21 +150,21 @@ Sanity check compile stderr:
 
 -----
 Running test binary command:  /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanitycheckc.exe
-C compiler for the build machine: cc (clang 20.1.3 "clang version 20.1.3")
-C linker for the build machine: cc ld.lld 20.1.3
+C compiler for the build machine: cc (clang 20.1.4 "clang version 20.1.4")
+C linker for the build machine: cc ld.lld 20.1.4
 -----------
 Detecting archiver via: `llvm-ar-20 --version` -> [Errno 2] No such file or directory: 'llvm-ar-20'
 -----------
 Detecting archiver via: `llvm-ar --version` -> 0
 stdout:
 LLVM (http://llvm.org/):
-  LLVM version 20.1.3
+  LLVM version 20.1.4
   Optimized build.
 -----------
 -----------
 Detecting compiler via: `cc --version` -> 0
 stdout:
-clang version 20.1.3
+clang version 20.1.4
 Target: aarch64-unknown-linux-android24
 Thread model: posix
 InstalledDir: /data/data/com.termux/files/usr/bin
@@ -174,12 +174,12 @@ Running command: -x c -E -dM -
 -----------
 Detecting linker via: `cc -Wl,--version` -> 0
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 -----------
 Detecting LLD linker via: `cc -Wl,-v` -> 1
 stdout:
-LLD 20.1.3 (compatible with GNU linkers)
+LLD 20.1.4 (compatible with GNU linkers)
 -----------
 stderr:
 ld.lld: error: undefined symbol: main
@@ -214,7 +214,7 @@ note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
 warning: 1 warning emitted
 -----------
 Rust compiler for the build machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
-Rust linker for the build machine: rustc -C linker=cc ld.lld 20.1.3
+Rust linker for the build machine: rustc -C linker=cc ld.lld 20.1.4
 Build machine cpu family: aarch64
 Build machine cpu: aarch64
 Host machine cpu family: aarch64

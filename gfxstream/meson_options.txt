@@ -530,7 +530,7 @@ option(
 option(
   'platform-sdk-version',
   type : 'integer',
-  min : 25,
+  min : 33,
   max : 10000,
   value : 33,
   description : 'Android Platform SDK version.'

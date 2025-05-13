@@ -12,8 +12,8 @@
         "c"
       ],
       "default_suffix": "c",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
+      "version": "20.1.4",
+      "full_version": "clang version 20.1.4",
       "linker_id": "ld.lld"
     },
     "cpp": {
@@ -45,8 +45,8 @@
         "H"
       ],
       "default_suffix": "cpp",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
+      "version": "20.1.4",
+      "full_version": "clang version 20.1.4",
       "linker_id": "ld.lld"
     }
   },
@@ -63,8 +63,8 @@
         "c"
       ],
       "default_suffix": "c",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
+      "version": "20.1.4",
+      "full_version": "clang version 20.1.4",
       "linker_id": "ld.lld"
     },
     "cpp": {
@@ -96,8 +96,8 @@
         "H"
       ],
       "default_suffix": "cpp",
-      "version": "20.1.3",
-      "full_version": "clang version 20.1.3",
+      "version": "20.1.4",
+      "full_version": "clang version 20.1.4",
       "linker_id": "ld.lld"
     }
   }
