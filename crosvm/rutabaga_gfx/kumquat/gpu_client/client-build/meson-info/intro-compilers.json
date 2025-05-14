@@ -3,17 +3,17 @@
     "c": {
       "id": "gcc",
       "exelist": [
-        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "cc"
       ],
       "linker_exelist": [
-        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "cc"
       ],
       "file_suffixes": [
         "c"
       ],
       "default_suffix": "c",
       "version": "14.2.0",
-      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "full_version": "cc (Alpine 14.2.0) 14.2.0",
       "linker_id": "ld.bfd"
     },
     "rust": {
@@ -21,19 +21,19 @@
       "exelist": [
         "rustc",
         "-C",
-        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "linker=cc"
       ],
       "linker_exelist": [
         "rustc",
         "-C",
-        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "linker=cc"
       ],
       "file_suffixes": [
         "rs"
       ],
       "default_suffix": "rs",
       "version": "1.86.0",
-      "full_version": null,
+      "full_version": "1.86.0",
       "linker_id": "ld.bfd"
     }
   },
@@ -41,17 +41,17 @@
     "c": {
       "id": "gcc",
       "exelist": [
-        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "cc"
       ],
       "linker_exelist": [
-        "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "cc"
       ],
       "file_suffixes": [
         "c"
       ],
       "default_suffix": "c",
       "version": "14.2.0",
-      "full_version": "aarch64-alpine-linux-musl-gcc-14.2.0 (Alpine 14.2.0) 14.2.0",
+      "full_version": "cc (Alpine 14.2.0) 14.2.0",
       "linker_id": "ld.bfd"
     },
     "rust": {
@@ -59,19 +59,19 @@
       "exelist": [
         "rustc",
         "-C",
-        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "linker=cc"
       ],
       "linker_exelist": [
         "rustc",
         "-C",
-        "linker=/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+        "linker=cc"
       ],
       "file_suffixes": [
         "rs"
       ],
       "default_suffix": "rs",
       "version": "1.86.0",
-      "full_version": null,
+      "full_version": "1.86.0",
       "linker_id": "ld.bfd"
     }
   }

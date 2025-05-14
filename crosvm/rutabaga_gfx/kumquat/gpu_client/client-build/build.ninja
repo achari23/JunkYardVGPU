@@ -19,7 +19,7 @@ rule CUSTOM_COMMAND
 
 rule REGENERATE_BUILD
  command = /usr/bin/meson --internal regenerate /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client .
- description = Regenerating build files.
+ description = Regenerating build files
  generator = 1
 
 # Phony build target, always out of date
@@ -36,16 +36,16 @@ build libvirtgpu_kumquat_ffi.so libvirtgpu_kumquat_ffi.so.0 libvirtgpu_kumquat_f
 
 build test: phony meson-internal__test
 
-build meson-internal__test: CUSTOM_COMMAND all PHONY
+build meson-internal__test: CUSTOM_COMMAND all meson-test-prereq PHONY
  COMMAND = /usr/bin/meson test --no-rebuild --print-errorlogs
- DESC = Running$ all$ tests.
+ DESC = Running$ all$ tests
  pool = console
 
 build benchmark: phony meson-internal__benchmark
 
-build meson-internal__benchmark: CUSTOM_COMMAND all PHONY
+build meson-internal__benchmark: CUSTOM_COMMAND all meson-benchmark-prereq PHONY
  COMMAND = /usr/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild
- DESC = Running$ benchmark$ suite.
+ DESC = Running$ benchmark$ suite
  pool = console
 
 # Install rules
@@ -53,7 +53,7 @@ build meson-internal__benchmark: CUSTOM_COMMAND all PHONY
 build install: phony meson-internal__install
 
 build meson-internal__install: CUSTOM_COMMAND PHONY | all
- DESC = Installing$ files.
+ DESC = Installing$ files
  COMMAND = /usr/bin/meson install --no-rebuild
  pool = console
 
@@ -66,13 +66,25 @@ build meson-internal__dist: CUSTOM_COMMAND PHONY
 
 # Suffix
 
+build clippy: phony meson-internal__clippy
+
+build meson-internal__clippy: CUSTOM_COMMAND PHONY
+ COMMAND = /usr/bin/meson --internal clippy /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
+ pool = console
+
+build rustdoc: phony meson-internal__rustdoc
+
+build meson-internal__rustdoc: CUSTOM_COMMAND PHONY
+ COMMAND = /usr/bin/meson --internal rustdoc /home/user/Ramin/JunkYardVGPU/crosvm/rutabaga_gfx/kumquat/gpu_client/client-build
+ pool = console
+
 build uninstall: phony meson-internal__uninstall
 
 build meson-internal__uninstall: CUSTOM_COMMAND PHONY
  COMMAND = /usr/bin/meson --internal uninstall
  pool = console
 
-build all: phony meson-test-prereq meson-benchmark-prereq libvirtgpu_kumquat_ffi.so
+build all: phony libvirtgpu_kumquat_ffi.so
 
 build meson-test-prereq: phony 
 

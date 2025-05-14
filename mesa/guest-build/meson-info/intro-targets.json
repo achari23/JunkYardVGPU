@@ -11,6 +11,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -178,8 +179,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/c11/impl/libmesa_util_c11.a.p",
@@ -354,8 +356,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/blake3/libblake3.a.p",
@@ -711,8 +714,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/libmesa_util_sse41.a.p",
@@ -888,8 +892,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/libmesa_util.a.p",
@@ -901,7 +906,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -1127,6 +1131,7 @@
       },
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -1140,7 +1145,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -1313,8 +1317,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/libxmlconfig.a.p",
@@ -1325,7 +1330,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -1507,8 +1511,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/libparson.a.p",
@@ -1707,8 +1712,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/x11/libloader_x11.a.p",
@@ -1720,7 +1726,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -1901,8 +1906,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/loader/libloader_wayland_helper.a.p",
@@ -1914,7 +1920,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -2091,8 +2096,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/loader/libloader.a.p",
@@ -2104,7 +2110,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -3117,8 +3122,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/mapi/glapi/libglapi_bridge.a.p",
@@ -3135,7 +3141,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/mapi/glapi/gen",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -3346,8 +3351,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/mapi/shared-glapi/libglapi.a.p",
@@ -3360,7 +3366,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/mapi",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/mapi",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -3630,8 +3635,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/libcompiler.a.p",
@@ -4053,8 +4059,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/nir/libnir.a.p",
@@ -4067,7 +4074,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -4561,8 +4567,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv/libvtn.a.p",
@@ -4581,7 +4588,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -4775,8 +4781,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv/spirv2nir.p",
@@ -4791,7 +4798,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -4940,8 +4946,6 @@
         "parameters": [
           "-Wl,--as-needed",
           "-Wl,--no-undefined",
-          "-Wl,-rpath,/usr/local/lib",
-          "-Wl,-rpath-link,/usr/local/lib",
           "-Wl,--start-group",
           "-Wl,--start-group",
           "src/compiler/spirv/libvtn.a",
@@ -4952,7 +4956,7 @@
           "src/util/blake3/libblake3.a",
           "src/c11/impl/libmesa_util_c11.a",
           "-lm",
-          "/usr/local/lib/libz.so",
+          "/usr/lib/libz.so",
           "-pthread",
           "/usr/lib/libdrm.so",
           "-Wl,--end-group",
@@ -4989,8 +4993,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl/libglsl_util.a.p",
@@ -5008,7 +5013,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -5254,8 +5258,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl/glcpp/libglcpp.a.p",
@@ -5273,7 +5278,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -5455,8 +5459,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl/glcpp/libglcpp_standalone.a.p",
@@ -5474,7 +5479,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -5653,8 +5657,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl/glcpp/glcpp.p",
@@ -5672,7 +5677,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -5821,8 +5825,6 @@
         "parameters": [
           "-Wl,--as-needed",
           "-Wl,--no-undefined",
-          "-Wl,-rpath,/usr/local/lib",
-          "-Wl,-rpath-link,/usr/local/lib",
           "-Wl,--start-group",
           "-Wl,--start-group",
           "src/compiler/glsl/glcpp/libglcpp_standalone.a",
@@ -5833,7 +5835,7 @@
           "src/c11/impl/libmesa_util_c11.a",
           "src/compiler/glsl/libglsl_util.a",
           "-lm",
-          "/usr/local/lib/libz.so",
+          "/usr/lib/libz.so",
           "-pthread",
           "/usr/lib/libdrm.so",
           "-Wl,--end-group",
@@ -6194,6 +6196,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -6217,7 +6220,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -6408,8 +6410,9 @@
       },
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl/libglsl.a.p",
@@ -6431,7 +6434,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -6630,6 +6632,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -6653,7 +6656,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/nir",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler/nir",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -6827,6 +6829,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -6846,7 +6849,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -6989,8 +6991,6 @@
         "parameters": [
           "-Wl,--as-needed",
           "-Wl,--no-undefined",
-          "-Wl,-rpath,/usr/local/lib",
-          "-Wl,-rpath-link,/usr/local/lib",
           "-Wl,--start-group",
           "-Wl,--start-group",
           "src/compiler/glsl/libglsl_standalone.a",
@@ -7005,7 +7005,7 @@
           "src/compiler/glsl/libglsl_util.a",
           "src/compiler/glsl/glcpp/libglcpp_standalone.a",
           "-pthread",
-          "/usr/local/lib/libz.so",
+          "/usr/lib/libz.so",
           "-lm",
           "/usr/lib/libdrm.so",
           "-Wl,--end-group",
@@ -7041,8 +7041,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/isaspec/libisaspec.a.p",
@@ -7053,7 +7054,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -7322,8 +7322,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/egl/wayland/wayland-drm/libwayland_drm.a.p",
@@ -8120,8 +8121,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/util/libvulkan_util.a.p",
@@ -8137,7 +8139,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -8313,7 +8314,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548299701232",
+      "dep162428992044421336487658505895473452717",
       "zlib",
       "",
       "threads",
@@ -8690,8 +8691,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/runtime/libvulkan_lite_runtime.a.p",
@@ -8710,7 +8712,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -8930,7 +8931,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548298456288",
+      "dep162428992044421336487658505895473452717",
       "zlib",
       "",
       "threads",
@@ -8954,8 +8955,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/runtime/libvulkan_lite_instance.a.p",
@@ -8974,7 +8976,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -9145,7 +9146,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548298616384",
+      "dep162428992044421336487658505895473452717",
       "zlib",
       "",
       "threads",
@@ -9169,8 +9170,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/runtime/libvulkan_runtime.a.p",
@@ -9189,7 +9191,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -9370,7 +9371,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548298618400",
+      "dep162428992044421336487658505895473452717",
       "zlib",
       "",
       "threads",
@@ -9395,8 +9396,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/runtime/libvulkan_instance.a.p",
@@ -9415,7 +9417,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -9586,7 +9587,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548298608560",
+      "dep162428992044421336487658505895473452717",
       "zlib",
       "",
       "threads",
@@ -9654,8 +9655,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/vulkan/wsi/libvulkan_wsi.a.p",
@@ -9674,7 +9676,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -9856,7 +9857,7 @@
       "wayland-client",
       "libdrm",
       "xrandr",
-      "dep548300136400",
+      "dep162428992044421336487658505895473452717",
       "libudev",
       "expat",
       "",
@@ -9882,8 +9883,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/virtio/vdrm/liblibvdrm.a.p",
@@ -9898,7 +9900,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/virtio/virtio-gpu",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -10076,6 +10077,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -10243,6 +10245,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -10418,6 +10421,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -10596,6 +10600,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -10766,6 +10771,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -10945,6 +10951,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -11254,6 +11261,7 @@
     "target_sources": [
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -11427,8 +11435,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gfxstream/guest/vulkan/libvulkan_gfxstream.so.p",
@@ -11600,6 +11609,7 @@
       },
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -11808,8 +11818,6 @@
           "src/vulkan/runtime/libvulkan_lite_instance.a",
           "src/vulkan/wsi/libvulkan_wsi.a",
           "-Wl,--no-whole-archive",
-          "-Wl,-rpath,/usr/local/lib",
-          "-Wl,-rpath-link,/usr/local/lib",
           "src/gfxstream/guest/vulkan/stubs/libgfxstream_vk_stubs.a",
           "src/loader/libloader_wayland_helper.a",
           "src/util/libmesa_util.a",
@@ -11842,7 +11850,7 @@
           "/usr/lib/libwayland-client.so",
           "/usr/lib/libXrandr.so",
           "/usr/lib/libexpat.so",
-          "/usr/local/lib/libz.so",
+          "/usr/lib/libz.so",
           "-pthread",
           "-lm",
           "/usr/lib/libvirtgpu_kumquat_ffi.so",
@@ -11855,7 +11863,7 @@
     "subproject": null,
     "dependencies": [
       "libdrm",
-      "dep548297391712",
+      "dep162428992044421336487658505895473452717",
       "xcb",
       "x11-xcb",
       "xcb-dri3",
@@ -12127,8 +12135,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/mesa/libmesa.a.p",
@@ -12153,7 +12162,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -12510,6 +12518,7 @@
       },
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -12536,7 +12545,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/glsl",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -12880,8 +12888,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/libgallium.a.p",
@@ -12901,7 +12910,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -13230,8 +13238,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/libgalliumvl_stub.a.p",
@@ -13243,7 +13252,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -13421,8 +13429,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/libgalliumvl.a.p",
@@ -13438,7 +13447,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -13633,8 +13641,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/libgalliumvlwinsys.a.p",
@@ -13651,7 +13660,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/drivers/zink",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
           "-Wall",
@@ -13833,8 +13841,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/pipe-loader/libpipe_loader_static.a.p",
@@ -13855,7 +13864,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/drivers",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -14034,8 +14042,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary/pipe-loader/libpipe_loader_dynamic.a.p",
@@ -14056,7 +14065,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/drivers",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
           "-I/usr/include/libdrm",
-          "-I/usr/local/include",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
           "-D_FILE_OFFSET_BITS=64",
@@ -14235,8 +14243,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/winsys/sw/null/libws_null.a.p",
@@ -14250,7 +14259,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/include",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -14426,8 +14434,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/winsys/sw/wrapper/libwsw.a.p",
@@ -14441,7 +14450,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/gallium/auxiliary",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -14712,8 +14720,9 @@
     "target_sources": [
       {
         "language": "c",
+        "machine": "host",
         "compiler": [
-          "/usr/bin/aarch64-alpine-linux-musl-gcc-14.2.0"
+          "cc"
         ],
         "parameters": [
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/gallium/drivers/zink/libzink.a.p",
@@ -14738,7 +14747,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -14911,6 +14919,7 @@
       },
       {
         "language": "cpp",
+        "machine": "host",
         "compiler": [
           "c++"
         ],
@@ -14937,7 +14946,6 @@
           "-I/home/user/Ramin/JunkYardVGPU/mesa/src/compiler",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/compiler/spirv",
           "-I/home/user/Ramin/JunkYardVGPU/mesa/guest-build/src/util/format",
-          "-I/usr/local/include",
           "-I/usr/include/libdrm",
           "-fvisibility=hidden",
           "-fdiagnostics-color=always",
@@ -15098,7 +15106,7 @@
       "libzstd",
       "libunwind",
       "libdrm",
-      "dep548301109872",
+      "dep162428992044421336487658505895473452717",
       "xcb",
       "x11-xcb",
       "xcb-dri3",
