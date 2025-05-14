@@ -1721,7 +1721,7 @@ void VkEmulation::initFeatures(Features features) {
                                                  mQueue, mQueueLock);
     }
 
-    auto representativeInfo = findRepresentativeColorBufferMemoryTypeIndexLocked();
+    /*auto representativeInfo = findRepresentativeColorBufferMemoryTypeIndexLocked();
     if (!representativeInfo) {
         GFXSTREAM_ABORT(FatalError(ABORT_REASON_OTHER))
             << "Failed to find memory type for ColorBuffers.";
@@ -1731,7 +1731,7 @@ void VkEmulation::initFeatures(Features features) {
         "Representative ColorBuffer memory type using host memory type index %d "
         "and guest memory type index :%d",
         mRepresentativeColorBufferMemoryTypeInfo.hostMemoryTypeIndex,
-        mRepresentativeColorBufferMemoryTypeInfo.guestMemoryTypeIndex);
+        mRepresentativeColorBufferMemoryTypeInfo.guestMemoryTypeIndex);*/
 }
 
 VkEmulation::~VkEmulation() {

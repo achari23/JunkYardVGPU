@@ -1,6 +1,6 @@
-Build started at 2025-05-12T18:46:20.323365
+Build started at 2025-05-13T17:56:55.356930
 Main binary: /data/data/com.termux/files/usr/bin/python3.12
-Build Options: -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
+Build Options: -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib
 Python system: Linux
 The Meson build system
 Version: 1.8.0
@@ -230,7 +230,7 @@ Build targets in project: 1
 rutabaga_gfx_ffi 0.1.6
 
   User defined options
-    includedir: /data/data/com.termux/files/usr/include/
+    includedir: /data/data/com.termux/files/usr/include
     libdir    : /data/data/com.termux/files/usr/lib
 
 Found ninja-1.12.1 at /data/data/com.termux/files/usr/bin/ninja
