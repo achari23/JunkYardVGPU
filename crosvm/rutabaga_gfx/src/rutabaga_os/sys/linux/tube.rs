@@ -136,7 +136,7 @@ impl Listener {
 
         let unix_addr = UnixAddr::new(&path)?;
         bind(socket.as_raw_fd(), &unix_addr)?;
-        listen(&socket, Backlog::new(128)?)?;
+        listen(&socket, Backlog::new(64)?)?;
 
         fcntl(socket.as_raw_fd(), FcntlArg::F_SETFL(OFlag::O_NONBLOCK))?;
 
