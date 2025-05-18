@@ -92,8 +92,6 @@ int SharedMemory::openInternal(int oflag, int mode, bool doMapping) {
     if (mShareType == ShareType::SHARED_MEMORY) {
 #if !defined(__BIONIC__)
         mFd = shm_open(mName.c_str(), oflag, mode);
-#else
-        return ENOTTY;
 #endif
     } else {
         mFd = ::open(mName.c_str(), oflag, mode);

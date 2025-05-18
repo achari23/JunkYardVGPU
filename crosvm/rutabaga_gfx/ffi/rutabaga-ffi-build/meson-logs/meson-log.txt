@@ -1,6 +1,6 @@
-Build started at 2025-05-13T17:56:55.356930
+Build started at 2025-05-18T00:58:50.366487
 Main binary: /data/data/com.termux/files/usr/bin/python3.12
-Build Options: -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib
+Build Options: -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
 Python system: Linux
 The Meson build system
 Version: 1.8.0
@@ -89,7 +89,7 @@ cc: error: linker command failed with exit code 1 (use -v to see invocation)
 -----------
 Detecting compiler via: `rustc --version` -> 0
 stdout:
-rustc 1.86.0 (05f9846f8 2025-03-31) (built from a source tarball)
+rustc 1.87.0 (17067e9ac 2025-05-09) (built from a source tarball)
 -----------
 -----------
 Called: `rustc -C linker=cc -o /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest.exe /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
@@ -110,7 +110,7 @@ note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
 
 warning: 1 warning emitted
 -----------
-Rust compiler for the host machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
+Rust compiler for the host machine: rustc -C linker=cc (rustc 1.87.0 "1.87.0")
 Rust linker for the host machine: rustc -C linker=cc ld.lld 20.1.4
 -----------
 Detecting compiler via: `cc --version` -> 0
@@ -192,7 +192,7 @@ cc: error: linker command failed with exit code 1 (use -v to see invocation)
 -----------
 Detecting compiler via: `rustc --version` -> 0
 stdout:
-rustc 1.86.0 (05f9846f8 2025-03-31) (built from a source tarball)
+rustc 1.87.0 (17067e9ac 2025-05-09) (built from a source tarball)
 -----------
 -----------
 Called: `rustc -C linker=cc -o /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/rusttest.exe /data/data/com.termux/files/home/crosvm/rutabaga_gfx/ffi/rutabaga-ffi-build/meson-private/sanity.rs` -> 0
@@ -213,7 +213,7 @@ note: native-static-libs: -ldl -llog -lunwind -ldl -lm -lc
 
 warning: 1 warning emitted
 -----------
-Rust compiler for the build machine: rustc -C linker=cc (rustc 1.86.0 "1.86.0")
+Rust compiler for the build machine: rustc -C linker=cc (rustc 1.87.0 "1.87.0")
 Rust linker for the build machine: rustc -C linker=cc ld.lld 20.1.4
 Build machine cpu family: aarch64
 Build machine cpu: aarch64
@@ -230,7 +230,7 @@ Build targets in project: 1
 rutabaga_gfx_ffi 0.1.6
 
   User defined options
-    includedir: /data/data/com.termux/files/usr/include
+    includedir: /data/data/com.termux/files/usr/include/
     libdir    : /data/data/com.termux/files/usr/lib
 
 Found ninja-1.12.1 at /data/data/com.termux/files/usr/bin/ninja
