@@ -274,14 +274,9 @@ std::optional<VirtioGpuResource> VirtioGpuResource::Create(
 
     if (createBlobArgs->blob_id == 0) {
         RingBlobMemory memory;
-#if !defined(__BIONIC__)
-        if (features.ExternalBlob.enabled)
-        {
+        if (features.ExternalBlob.enabled) {
             memory = RingBlob::CreateWithShmem(resourceId, createBlobArgs->size);
-        } 
-        else
-#endif
-        {
+        } else {
             memory = RingBlob::CreateWithHostMemory(resourceId, createBlobArgs->size, pageSize);
         }
         if (!memory) {

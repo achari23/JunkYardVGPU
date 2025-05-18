@@ -1,6 +1,6 @@
-Build started at 2025-05-18T00:58:50.366487
+Build started at 2025-05-18T13:56:01.245054
 Main binary: /data/data/com.termux/files/usr/bin/python3.12
-Build Options: -Dincludedir=/data/data/com.termux/files/usr/include -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
+Build Options: -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib -Dincludedir=/data/data/com.termux/files/usr/include/ -Dlibdir=/data/data/com.termux/files/usr/lib
 Python system: Linux
 The Meson build system
 Version: 1.8.0

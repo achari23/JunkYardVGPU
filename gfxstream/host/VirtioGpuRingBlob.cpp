@@ -50,7 +50,7 @@ void* RingBlob::map() {
 
 /*static*/
 std::unique_ptr<RingBlob> RingBlob::CreateWithShmem(uint32_t id, uint64_t size) {
-    const std::string name = "gfxstream-ringblob-shmem-" + std::to_string(id);
+    const std::string name = "file:///tmp/gfxstream-ringblob-shmem-" + std::to_string(id);
 
     auto shmem = std::make_unique<SharedMemory>(name, size);
     int ret = shmem->create(0600);

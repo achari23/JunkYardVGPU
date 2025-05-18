@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K"
-      binary: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K"
+      source: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T"
+      binary: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
       CMAKE_CXX_FLAGS: ""
@@ -73,19 +73,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K'
+        Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T'
         
-        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_cf694/fast
-        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_cf694.dir/build.make CMakeFiles/cmTC_cf694.dir/build
-        make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K'
-        Building CXX object CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o
-        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_9cdbb/fast
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_9cdbb.dir/build.make CMakeFiles/cmTC_9cdbb.dir/build
+        make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T'
+        Building CXX object CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o
+        /data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         clang version 20.1.4
         Target: aarch64-unknown-linux-android24
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
          (in-process)
-         "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+         "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 20.1.4 based upon LLVM 20.1.4 default target aarch64-unknown-linux-android24
         ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
         ignoring nonexistent directory "/data/data/com.termux/files/include"
@@ -96,15 +96,15 @@ events:
          /data/data/com.termux/files/usr/include/aarch64-linux-android
          /data/data/com.termux/files/usr/include
         End of search list.
-        Linking CXX executable cmTC_cf694
-        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf694.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_9cdbb
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdbb.dir/link.txt --verbose=1
         clang version 20.1.4
         Target: aarch64-unknown-linux-android24
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
-         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_cf694 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
-        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_cf694
-        make[1]: Leaving directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K'
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_9cdbb /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        /data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9cdbb
+        make[1]: Leaving directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T'
         
       exitCode: 0
   -
@@ -139,19 +139,19 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K']
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T']
         ignore line: []
-        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_cf694/fast]
-        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_cf694.dir/build.make CMakeFiles/cmTC_cf694.dir/build]
-        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K']
-        ignore line: [Building CXX object CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_9cdbb/fast]
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_9cdbb.dir/build.make CMakeFiles/cmTC_9cdbb.dir/build]
+        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/c++   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 20.1.4]
         ignore line: [Target: aarch64-unknown-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-Q6jd5K -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-iJdz5T -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/include/c++/v1 -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -fdeprecated-macro -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -x c++ /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 20.1.4 based upon LLVM 20.1.4 default target aarch64-unknown-linux-android24]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
@@ -162,13 +162,13 @@ events:
         ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
         ignore line: [ /data/data/com.termux/files/usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_cf694]
-        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf694.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_9cdbb]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cdbb.dir/link.txt --verbose=1]
         ignore line: [clang version 20.1.4]
         ignore line: [Target: aarch64-unknown-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_cf694 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_9cdbb /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o -lc++_shared /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lm -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
           arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
           arg [--sysroot=/data/data/com.termux/files] ==> ignore
           arg [-EL] ==> ignore
@@ -186,11 +186,11 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_cf694] ==> ignore
+          arg [cmTC_9cdbb] ==> ignore
           arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
           arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
           arg [-L/system/lib64] ==> dir [/system/lib64]
-          arg [CMakeFiles/cmTC_cf694.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_9cdbb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++_shared] ==> lib [c++_shared]
           arg [/data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a]
           arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
@@ -231,8 +231,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v"
-      binary: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v"
+      source: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o"
+      binary: "/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/data/data/com.termux/files/usr/bin/clang-scan-deps"
       CMAKE_C_FLAGS: ""
@@ -242,19 +242,19 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v'
+        Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o'
         
-        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_62800/fast
-        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_62800.dir/build.make CMakeFiles/cmTC_62800.dir/build
-        make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v'
-        Building C object CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o
-        /data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_15f3c/fast
+        /data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_15f3c.dir/build.make CMakeFiles/cmTC_15f3c.dir/build
+        make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o'
+        Building C object CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o
+        /data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         clang version 20.1.4
         Target: aarch64-unknown-linux-android24
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
          (in-process)
-         "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+         "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
         clang -cc1 version 20.1.4 based upon LLVM 20.1.4 default target aarch64-unknown-linux-android24
         ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"
         ignoring nonexistent directory "/data/data/com.termux/files/include"
@@ -264,15 +264,15 @@ events:
          /data/data/com.termux/files/usr/include/aarch64-linux-android
          /data/data/com.termux/files/usr/include
         End of search list.
-        Linking C executable cmTC_62800
-        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62800.dir/link.txt --verbose=1
+        Linking C executable cmTC_15f3c
+        /data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f3c.dir/link.txt --verbose=1
         clang version 20.1.4
         Target: aarch64-unknown-linux-android24
         Thread model: posix
         InstalledDir: /data/data/com.termux/files/usr/bin
-         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_62800 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
-        /data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -o cmTC_62800
-        make[1]: Leaving directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v'
+         "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_15f3c /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o
+        /data/data/com.termux/files/usr/bin/cc -O2 -g -DNDEBUG  -v CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -o cmTC_15f3c
+        make[1]: Leaving directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o'
         
       exitCode: 0
   -
@@ -305,19 +305,19 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v']
+        ignore line: [Change Dir: '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o']
         ignore line: []
-        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_62800/fast]
-        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_62800.dir/build.make CMakeFiles/cmTC_62800.dir/build]
-        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v']
-        ignore line: [Building C object CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /data/data/com.termux/files/usr/bin/cmake -E env VERBOSE=1 /data/data/com.termux/files/usr/bin/make -f Makefile cmTC_15f3c/fast]
+        ignore line: [/data/data/com.termux/files/usr/bin/make  -f CMakeFiles/cmTC_15f3c.dir/build.make CMakeFiles/cmTC_15f3c.dir/build]
+        ignore line: [make[1]: Entering directory '/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o']
+        ignore line: [Building C object CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/data/data/com.termux/files/usr/bin/cc   -O2 -g -DNDEBUG   -v -MD -MT CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [clang version 20.1.4]
         ignore line: [Target: aarch64-unknown-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-ItaO0v -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/data/data/com.termux/files/usr/bin/clang-20" -cc1 -triple aarch64-unknown-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +v8a -target-feature +fp-armv8 -target-feature +neon -target-feature +fix-cortex-a53-835769 -target-abi aapcs -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o -v -fcoverage-compilation-dir=/data/data/com.termux/files/home/aemu/build/CMakeFiles/CMakeScratch/TryCompile-kzg69o -resource-dir /data/data/com.termux/files/usr/lib/clang/20 -dependency-file CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -isysroot /data/data/com.termux/files -internal-isystem /data/data/com.termux/files/usr/lib/clang/20/include -internal-isystem /data/data/com.termux/files/usr/local/include -internal-externc-isystem /data/data/com.termux/files/usr/include/aarch64-linux-android -internal-externc-isystem /data/data/com.termux/files/include -internal-externc-isystem /data/data/com.termux/files/usr/include -O2 -ferror-limit 19 -femulated-tls -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o -x c /data/data/com.termux/files/usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 20.1.4 based upon LLVM 20.1.4 default target aarch64-unknown-linux-android24]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/data/data/com.termux/files/include"]
@@ -327,13 +327,13 @@ events:
         ignore line: [ /data/data/com.termux/files/usr/include/aarch64-linux-android]
         ignore line: [ /data/data/com.termux/files/usr/include]
         ignore line: [End of search list.]
-        ignore line: [Linking C executable cmTC_62800]
-        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62800.dir/link.txt --verbose=1]
+        ignore line: [Linking C executable cmTC_15f3c]
+        ignore line: [/data/data/com.termux/files/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15f3c.dir/link.txt --verbose=1]
         ignore line: [clang version 20.1.4]
         ignore line: [Target: aarch64-unknown-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /data/data/com.termux/files/usr/bin]
-        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_62800 /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
+        link line: [ "/data/data/com.termux/files/usr/bin/ld.lld" --sysroot=/data/data/com.termux/files -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=16384 --no-rosegment --hash-style=gnu -rpath=/data/data/com.termux/files/usr/lib --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_15f3c /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o -L/data/data/com.termux/files/usr/lib -L/system/lib64 CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc /data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl /data/data/com.termux/files/usr/lib/crtend_android.o]
           arg [/data/data/com.termux/files/usr/bin/ld.lld] ==> ignore
           arg [--sysroot=/data/data/com.termux/files] ==> ignore
           arg [-EL] ==> ignore
@@ -351,11 +351,11 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/system/bin/linker64] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_62800] ==> ignore
+          arg [cmTC_15f3c] ==> ignore
           arg [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o] ==> obj [/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o]
           arg [-L/data/data/com.termux/files/usr/lib] ==> dir [/data/data/com.termux/files/usr/lib]
           arg [-L/system/lib64] ==> dir [/system/lib64]
-          arg [CMakeFiles/cmTC_62800.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_15f3c.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [/data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [/data/data/com.termux/files/usr/lib/clang/20/lib/linux/libclang_rt.builtins-aarch64-android.a]
           arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
           arg [-ldl] ==> lib [dl]

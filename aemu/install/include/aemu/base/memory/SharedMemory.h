@@ -214,9 +214,9 @@ public:
     ShareType type() const { return mShareType; }
     handle_type getFd() { return mFd; }
     handle_type releaseHandle() {
-        if (mShareType == ShareType::FILE_BACKED) {
+        /*if (mShareType == ShareType::FILE_BACKED) {
             return invalidHandle();
-        }
+        }*/
 
         return std::exchange(mFd, invalidHandle());
     }
