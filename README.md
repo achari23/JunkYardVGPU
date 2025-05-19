@@ -65,7 +65,7 @@ All four executables to be built from scratch must be built on Android. The buil
     sudo meson setup --includedir /usr/include --libdir /usr/lib --wipe  guest-build/ -Dvulkan-drivers=gfxstream -Dgallium-drivers=zink -Dopengl=false
     sudo  meson install -C guest-build
     ```
-6. (optional) commit your binaries to your branch
+5. (optional) commit your binaries to your branch
 
 
 ## Necessary Linux Dependencies and commands to run before executing
