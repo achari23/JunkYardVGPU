@@ -58,14 +58,13 @@ All four executables to be built from scratch must be built on Android. The buil
 1. Clone this repo
 2. (optional) Cut your own branch
 3. Install dependencies as listed below in Necessary Linux Dependencies
-4. 
-5. Build gfxstream guest client
+4. Build gfxstream guest client
     ```
     cd mesa
     sudo meson setup --includedir /usr/include --libdir /usr/lib --wipe  guest-build/ -Dvulkan-drivers=gfxstream -Dgallium-drivers=zink -Dopengl=false
     sudo  meson install -C guest-build
     ```
-6. (optional) commit your binaries to your branch
+5. (optional) commit your binaries to your branch
 
 
 ## Necessary Linux Dependencies and commands to run before executing
