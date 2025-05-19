@@ -3,25 +3,22 @@
 The purpose of this project is to be able to run the Vulkan test suite on a Google Pixel Fold running Alpine Linux, using a VGPU. 
 
 ## Background 
-A VGPU system is necessary as the Pixel Fold does runs Bionic libc rather than GNU libc. A VGPU system allows a user to queue GPU commands from one device to another when the devices have different libc versions.  The tools that make up the VGPU interface are: GFXstream, Mesa, and Rutabaga. 
+A VGPU system is necessary as the Pixel Fold does runs Bionic libc rather than GNU libc. A VGPU system allows a user to queue GPU commands from one device to another when the devices have different libc versions.  The tools that make up the VGPU interface are GFXstream and Rutabaga. 
 
 GFXstream is a the engine which helps to forward graphics API calls between the host and guest device.
-
-Mesa is the 
-
 Rutabaga is the full abstraction layer which handles the dispatching of the GPU API calls and the display visualization. Below is the diagram of Rutabaga.
 
 ![Rutabaga Diagram](docs/rutabaga_document.png)
 
 
 ## Project MVP 
-The MVP of our project is to display the interaction between the host and guest gfxstream applications. In our case Kumquat Media server is the host application and vkcube is the guest application. 
+The MVP of our project is to display the interaction between the host and guest gfxstream applications. In our case Kumquat Media server is the host application and any vulkan command can be the guest application. 
 
 
 # Building the VGPU
 
 ## Termux, Android, Alpine Linux and more 
-While our current Pixel Build runs Alpine Linux currently the executables for Rutabaga, libaemu, and gfxstream need to be built in Android OS to link properly against Bionic. The reason for this is that the some of the libraries required are not available in Alpine Linux so the executables fail to build. The workaround is to compile on Android OS, pull the executables to the Linux build, and copy the necessary shared object files into /lib/system64.
+While our current Pixel Build runs Alpine Linux currently the executables for Rutabaga, libaemu, and gfxstream need to be built in Android OS to link properly against Bionic. The reason for this is that the some of the libraries required are not available in Alpine Linux so the executables fail to build. The workaround is to compile on Android OS, pull the executables to the Linux build, and copy the necessary shared object files into system/lib64 and usr/include; this step is covered below in the Necessary Linux Dependencies section.
 
 ## Setting up Termux on Android OS  
 1. Disable built-in Linux on Android
@@ -51,47 +48,58 @@ While our current Pixel Build runs Alpine Linux currently the executables for Ru
 5. You can now configure a ssh key and link it to your github account
 6. Now clone our repo. 
 
-## Building the Application on Android OS
+## Building the Application on PMOS
 1. Clone this repo
-2. (optional) Cut your own branch 
-3. Build AEMU 
+2. (optional) Cut your own branch
+3. Install dependencies as listed below in (Necessary Linux Dependencies)[#Necessary Linux Dependencies ]
+4. Build gfxstream guest client
     ```
-    cd aemu
-    cmake -DAEMU_COMMON_GEN_PKGCONFIG=ON \
-            -DAEMU_COMMON_BUILD_CONFIG=gfxstream \
-            -DENABLE_VKCEREAL_TESTS=OFF -B build
-    cmake --build build -j
-    sudo cmake --install build
+    cd mesa
+    sudo meson setup --includedir /usr/include --libdir /usr/lib --wipe  guest-build/ -Dvulkan-drivers=gfxstream -Dgallium-drivers=zink -Dopengl=false
+    sudo  meson install -C guest-build
     ```
-4. Build gfxstream host 
-    ```
-    cd gfxstream/
-    meson setup host-build/
-    meson install -C host-build/
-    ```
-5. Install FFI bindings for Rutabaga 
-    ```
-    cd $(crosvm_dir)/rutabaga_gfx/ffi/
-    meson setup rutabaga-ffi-build/
-    meson install -C rutabaga-ffi-build/
-    ```
-6. (optional) push your binaries to your repo branch
+6. (optional) commit your binaries to your branch
 
 
-## Necessary Android Dependencies
+## Necessary Linux Dependencies and commands to run before executing
+```
+sudo chmod 777 /tmp/
+sudo apk add rust
+sudo apk add cargo
+cd JunkyardVGPU
+sudo cp -r musl/include/* /usr/include
+sudo cp -r musl/lib/* /usr/lib
+sudo cp -r bionic/include/* /usr/include/
+sudo cp -r bionic/lib64/* /system/lib64/
+sudo apk add vulkan-tools
+sudo apk add vulkan-loader
+sudo apk add meson
+sudo apk add py3-mako
+sudo apk add py3-yaml
+sudo apk add cmake
+sudo apk add libdrm-dev
+sudo apk add byacc
+sudo apk add flex
+sudo apk add wayland-dev
+sudo app add libxcb-dev
+sudo apk add libx11-dev
+sudo apk add libxshmfence-dev
+sudo apk add libxrandr-dev
+sudo apk add g++
 
-## Necessary Linux Dependencies
-
+```
 ## Running the executables 
 1. To run both executables on the same device, consider using a tool like tmux
-2. You can execute kumquat media server by navigating to crosvm/rutabaga_gfx/kumquat/server/ and executing `./target/debug/kumquat`
-3. You can execute vkcube by: 
+2. You can execute kumquat media server by navigating to crosvm/rutabaga_gfx/kumquat/server/ and executing `sudo ./target/debug/kumquat`
+3. In the other terminal window you will notice that any vulkan commands queued will be run in the kumquat server on the right side
+4. To test, run `sudo /usr/bin/vulkaninfo` and you should see the result from vulkan-info displayed on the terminal you typed in and these lines on the screen running kumquat server: 
 ```
-    export MESA_LOADER_DRIVER_OVERRIDE=zink
-    export VIRTGPU_KUMQUAT=1
-    export VK_ICD_FILENAMES=$(mesa_dir)/guest-build/src/gfxstream/guest/vulkan/gfxstream_vk_devenv_icd.x86_64.json
-    vkcube
+I0519 00:14:09.898348   27089 VkDecoderGlobalState.cpp:972] Created VkInstance:0xb400007e5eadc410 for application:vulkaninfo engine:.                                                                  
+I0519 00:14:09.932460   27089 VkDecoderGlobalState.cpp:2039] Created VkDevice:0xb400007f0eb07580 for application:vulkaninfo engine: ASTC emulation:off CPU decoding:off.                                
+I0519 00:14:09.962327   27089 VkDecoderGlobalState.cpp:2286] Destroyed VkDevice:0xb400007f0eb07580 
+I0519 00:14:09.962595   27089 VkDecoderGlobalState.cpp:8683] Destroyed VkInstance:0xb400007e5eadc410 for application:vulkaninfo engine:.
 ```
+
 # Resources, Repositories, and External Tools used in this Repo
 
 AEMU:           https://android.googlesource.com/platform/hardware/google/aemu
