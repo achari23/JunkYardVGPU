@@ -51,7 +51,7 @@ While our current Pixel Build runs Alpine Linux currently the executables for Ru
 ## Building the Application on PMOS
 1. Clone this repo
 2. (optional) Cut your own branch
-3. Install dependencies as listed below in (Necessary Linux Dependencies)[#Necessary Linux Dependencies ]
+3. Install dependencies as listed below in Necessary Linux Dependencies
 4. Build gfxstream guest client
     ```
     cd mesa
